@@ -1,14 +1,88 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
+  background-color: #eeeadf;
+  margin: 0px;
+  padding: 0px;
 }
 
-.title_text {
-    margin: 0px;
-    padding: 0px;
+@font-face {
+  font-family: "SugoClassic";
+  src: url("../fonts/SugoTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SugoLight";
+  src: url("../fonts/Sugo_ExtraLightTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1vw;
 }
 
 .header img {
-    width: 100vw;
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 75%;
+}
+
+.title-text {
+  font-family: "SugoClassic", sans-serif;
+  font-size: 150pt;
+  font-weight: 900;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -51px;
+  margin-left: -7px;
+
+  background-image: url("../img/pexels-pixabay-356036.webp");
+  background-size: cover;
+  background-position: center 20%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "SugoClassic", sans-serif;
+}
+.navbar a {
+  display: flex;
+  flex-direction: column;
+
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+.navbar a span:last-child {
+  font-family: "SugoLight";
+}
+
+@media (max-width: 1000px) {
+  .title-text {
+    font-size: 105pt;
+    margin-bottom: -36px;
+    margin-left: -4.9px;
+    background-position: center 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-text {
+    font-size: 58pt;
+    margin-bottom: -20px;
+    margin-left: -2.9px;
+    background-position: center 0%;
+  }
 }
