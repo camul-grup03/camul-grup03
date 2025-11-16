@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../css/HomePage.css" />
   </head>
   <body>
-    <div class="header">
-      <nav class="navbar">
+    <div id="header">
+      <nav id="navbar">
         <a href="MOOC.html"><span>PAGE -</span><span>MOOC</span></a>
-        <a href="/"><span>SECTION -</span><span>Projects</span></a>
-        <a href="/"><span>SECTION -</span><span>About Us</span></a>
-        <a href="/"><span>SECTION -</span><span>Contact Us</span></a>
+        <a href="#projects"><span>SECTION -</span><span>Projects</span></a>
+        <a href="#about-us"><span>SECTION -</span><span>About Us</span></a>
+        <a href="#contact-us"><span>SECTION -</span><span>Contact Us</span></a>
       </nav>
       <div>
         <p class="title-text">PORTFOLIO</p>
@@ -22,5 +22,22 @@
         />
       </div>
     </div>
+    <div id="projects">
+      <p>projects</p>
+      <div class="horizontal-wrapper">
+        <section class="panel">
+          Project 1
+        </section>
+        <section class="panel">Project 2</section>
+        <section class="panel">Project 3</section>
+        <section class="panel">Project 4</section>
+      </div>
+    </div>
+    <div id="about-us"><p>about us</p></div>
+    <div id="contact-us"><p>contact us</p></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="../js/HomePage.js"></script>
   </body>
 </html>

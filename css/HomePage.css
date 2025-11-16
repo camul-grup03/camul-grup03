@@ -18,20 +18,21 @@ body {
   font-style: normal;
 }
 
-.header {
+#header {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: left;
   padding: 1vw;
+  margin-bottom: 10vh;
 }
 
-.header img {
+#header img {
   height: 65vh;
   width: 100%;
   object-fit: cover;
-  object-position: center 75%;
+  object-position: center 76%;
 }
 
 .title-text {
@@ -52,12 +53,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.navbar {
+#navbar {
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   font-family: "SugoClassic", sans-serif;
 }
-.navbar a {
+#navbar a {
   display: flex;
   flex-direction: column;
 
@@ -65,8 +67,26 @@ body {
   text-decoration: none;
 }
 
-.navbar a span:last-child {
+#navbar a span:last-child {
   font-family: "SugoLight";
+}
+
+/*wrapper*/
+#projects {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/*container*/
+.horizontal-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  min-width: 100vw;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -84,5 +104,17 @@ body {
     margin-bottom: -20px;
     margin-left: -2.9px;
     background-position: center 0%;
+  }
+  #navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  #navbar a:nth-child(2),
+  #navbar a:nth-child(4) {
+    justify-self: end;
+    text-align: right;
+    padding-right: 5px;
+    width: 100%;
   }
 }
