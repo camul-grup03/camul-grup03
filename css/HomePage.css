@@ -24,8 +24,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: left;
+  margin-bottom: 5vh;
   padding: 1vw;
-  margin-bottom: 10vh;
 }
 
 #header img {
@@ -71,8 +71,17 @@ body {
   font-family: "SugoLight";
 }
 
+#svg-progress {
+  width: 50vw;
+  height: 3px;
+}
+
 /*wrapper*/
 #projects {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow-x: hidden;
   position: relative;
 }
@@ -81,13 +90,25 @@ body {
 .horizontal-wrapper {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .panel {
   min-width: 100vw;
   text-align: center;
 }
+
+#contact-us {
+  width: 100vw;
+  height: 80vh;
+  background-color: #272727;
+}
+
+#contact-us p {
+  color: #eeeadf;
+  font-family: "SugoClassic";
+  font-size: 400pt;
+} 
 
 @media (max-width: 1000px) {
   .title-text {
