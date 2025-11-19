@@ -106,7 +106,6 @@ body {
 
 .panel img {
   width: 30vw;
-  padding-bottom: 1vw;
 }
 
 .panel {
@@ -114,11 +113,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-right: 5vw;
-}
-
-.panel p, .panel h1 {
-  margin: 0px;
-  padding-top: 1vw;
 }
 
 .panel:nth-child(odd):not(:nth-child(1)):not(:nth-child(2)) {
@@ -238,7 +232,7 @@ body {
 #contactForm textarea {
   border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 6px;
   font-size: 1rem;
 }
 
@@ -271,12 +265,13 @@ body {
   max-width: 40%;
 }
 
-#faq-section {
+#faq-section {  
+  height: 100vh;
+  padding-bottom: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10vw 0vw;
 }
 
 #faq-section h2 {
@@ -285,7 +280,6 @@ body {
   margin-bottom: 4vw;
   color: #272727;
   text-decoration: underline;
-  padding: 2vw;
 }
 
 .faq-item {
@@ -301,7 +295,7 @@ body {
   border: none;
   text-align: left;
   padding: 1vw 0;
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: "SugoClassic";
   cursor: pointer;
   color: #272727;
@@ -314,106 +308,13 @@ body {
 }
 
 .faq-answer p {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   padding: 0.5vw 0 1.5vw 0;
   font-family: "SugoLight";
   color: #272727;
 }
 
 /* Mobile */
-@media (max-width: 1000px) {
-  .title-text {
-    font-size: 105pt;
-    margin-bottom: -36px;
-    margin-left: -4.9px;
-    background-position: center 0%;
-  }
-}
-
-@media (max-width: 800px) {
-  .horizontal-wrapper {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    padding-top: 4vh;
-  }
-
-  .panel {
-    width: 90%;
-    padding-right: 0;
-    margin-bottom: 5vh;
-  }
-
-  .panel:first-child img,
-  .panel img {
-    width: 100%;
-  }
-
-  #svg-progress {
-    display: none;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 8vw;
-  }
-
-  .card {
-    width: 80%;
-    padding: 5vw;
-  }
-
-  .addInfo p {
-    font-size: 4vw;
-  }
-
-  .addInfo p:last-child {
-    font-size: 8vw;
-  }
-
-  .contacts img {
-    width: 6vw;
-  }
-
-  #contact-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 8vw;
-    padding: 10vw 2vw;
-  }
-
-  #contact-content p {
-    max-width: 90%;
-    font-size: 5vw;
-  }
-
-  #contactForm {
-    width: 90%;
-  }
-
-  #contactForm input,
-  #contactForm label,
-  #contactForm textarea {
-    font-size: 4vw;
-  }
-
-  #contactForm button {
-    font-size: 4vw;
-    padding: 3vw;
-  }
-
-  #faq-section {
-    padding: 20vw 4vw;
-    height: auto;
-  }
-
-  .faq-item {
-    width: 100%;
-  }
-}
-
 @media (max-width: 600px) {
   #faq-section h2 {
     font-size: 12vw;
@@ -424,7 +325,18 @@ body {
   .faq-answer p {
     font-size: 4vw;
   }
+}
 
+@media (max-width: 1000px) {
+  .title-text {
+    font-size: 105pt;
+    margin-bottom: -36px;
+    margin-left: -4.9px;
+    background-position: center 0%;
+  }
+}
+
+@media (max-width: 600px) {
   .title-text {
     font-size: 58pt;
     margin-bottom: -20px;

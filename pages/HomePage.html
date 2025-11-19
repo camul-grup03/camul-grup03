@@ -50,21 +50,171 @@
       </svg>
 
       <div class="horizontal-wrapper">
-        <section class="panel">Project 1</section>
-        <section class="panel">Project 2</section>
-        <section class="panel">Project 3</section>
-        <section class="panel">Project 4</section>
+        <section class="panel">
+          <img
+            src="../img/pexels-pixabay-356036.webp"
+            alt="A preview image of the marketing plan developed"
+          />
+          <p>A project about this website plan for advertising.</p>
+          <h1>Marketing Plan</h1>
+        </section>
+        <section class="panel">
+          <img
+            src="../img/pexels-pixabay-356036.webp"
+            alt="A preview image of the marketing plan developed"
+          />
+          <p>A project about this website plan for advertising.</p>
+          <h1>Marketing Plan</h1>
+        </section>
+        <section class="panel">
+          <img
+            src="../img/pexels-pixabay-356036.webp"
+            alt="A preview image of the marketing plan developed"
+          />
+          <p>A project about this website plan for advertising.</p>
+          <h1>Marketing Plan</h1>
+        </section>
+        <section class="panel">
+          <img
+            src="../img/pexels-pixabay-356036.webp"
+            alt="A preview image of the marketing plan developed"
+          />
+          <p>A project about this website plan for advertising.</p>
+          <h1>Marketing Plan</h1>
+        </section>
       </div>
     </div>
     <div id="about-us">
-      <p>about us</p>
+      <div id="about-header">
+        <p>
+          ABOUT US // ABOUT US // ABOUT US // ABOUT US // ABOUT US // ABOUT US
+          // ABOUT US // ABOUT US // ABOUT US // ABOUT US // ABOUT US //
+        </p>
+      </div>
+      <div class="container">
+        <section class="card">
+          <div class="shape s1"></div>
+          <div class="shape s2"></div>
+          <div class="shape s3"></div>
+          <div class="shape s4"></div>
+          <img src="../img/GV_Photo.jpeg" alt="" />
+          <div class="addInfo">
+            <p>
+              Software Developer, currently taking a Master's Degree at ISEP
+            </p>
+            <p>Gaspar Vieira</p>
+          </div>
+          <div class="contacts">
+            <a href=mailto:"gaspar.antunesvieira@gmail.com">
+              <img src="../svg/email.svg" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/gaspar-antunes-vieira-525a82298" target="_blank">
+              <img src="../svg/linkedin.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section class="card">
+          <div class="shape s1"></div>
+          <div class="shape s2"></div>
+          <div class="shape s3"></div>
+          <div class="shape s4"></div>
+          <img src="../img/DB_Photo.jpeg" alt="" />
+          <div class="addInfo">
+            <p>
+              Software Developer, currently taking a Master's Degree at ISEP
+            </p>
+            <p>Daniel Braga</p>
+          </div>
+          <div class="contacts">
+            <a href=mailto:"1200801@isep.ipp.pt">
+              <img src="../svg/email.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section class="card">
+          <div class="shape s1"></div>
+          <div class="shape s2"></div>
+          <div class="shape s3"></div>
+          <div class="shape s4"></div>
+          <img src="../img/GM_Photo.jpeg" alt="" />
+          <div class="addInfo">
+            <p>
+              Software Developer, currently taking a Master's Degree at ISEP
+            </p>
+            <p>Gonçalo Mochão</p>
+          </div>
+          <div class="contacts">
+            <a href=mailto:"1211332@isep.ipp.pt">
+              <img src="../svg/email.svg" alt="" />
+            </a>
+          </div>
+        </section>
+      </div>
     </div>
     <div id="contact-us">
-      <p>contact us</p>
+      <div>
+        <p>contact</p>
+        <p>us</p>
+      </div>
+      <div id="contact-content">
+        <p>
+          Is there anything we can help you with? Please contact us!
+        </p>
+
+        <form id="contactForm">
+          <label>Name</label>
+          <input type="text" name="name" required />
+      
+          <label>Email</label>
+          <input type="email" name="email" required />
+
+          <label>Topic</label>
+          <input type="text" name="topic" required />
+      
+          <label>Message</label>
+          <textarea name="message" rows="4" required></textarea>
+      
+          <button type="submit">Send Message</button>
+      
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </div>
+    <div id="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">How can I contact your team?</button>
+        <div class="faq-answer">
+          <p>You can reach us directly through the contact form above or via each member’s email and LinkedIn available on the About Us section.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Do you work on external projects?</button>
+        <div class="faq-answer">
+          <p>At this stage, our work is mainly academic. However, we are always open to discussing collaboration opportunities.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">What technologies do you use?</button>
+        <div class="faq-answer">
+          <p>We work primarily with web technologies such as HTML, CSS, JavaScript, React, Node.js, and Python, depending on the project.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Can I request help for my own project?</button>
+        <div class="faq-answer">
+          <p>You are welcome to send us a message describing your project. We will respond as soon as possible!</p>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="../js/HomePage.js"></script>
+    <script src="../js/utils.js"></script>
   </body>
 </html>

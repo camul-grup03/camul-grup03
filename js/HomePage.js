@@ -1,24 +1,34 @@
-gsap.registerPlugin(ScrollTrigger);
+if (window.innerWidth > 800) {
+  gsap.registerPlugin(ScrollTrigger);
 
-const sections = gsap.utils.toArray('.horizontal-wrapper section');
-const mask = document.querySelector(".mask");
+  const wrapper = document.querySelector(".horizontal-wrapper");
+  const sections = gsap.utils.toArray(".horizontal-wrapper section");
+  const mask = document.querySelector(".mask");
 
-gsap.set(mask, { width: "0%" });
+  gsap.set(mask, { width: "0%" });
 
-// horizontal scroll
-let scrollTween = gsap.to(".horizontal-wrapper", {
-  xPercent: -100 * (sections.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#projects",
-    start: "top top",
-    end: () => "+=" + (window.innerWidth * (sections.length - 1)),
-    pin: true,
-    scrub: 1,
-    anticipatePin: 1,
-    onUpdate: self => {
-      // sync mask width to scroll progress
-      mask.style.width = (self.progress * 100) + "%";
-    }
-  }
-});
+  // Wait for images to load so widths are correct
+  window.addEventListener("load", () => {
+    const totalScroll = wrapper.scrollWidth - window.innerWidth;
+
+    gsap.to(wrapper, {
+      x: -totalScroll,
+      ease: "power1.inOut",
+      scrollTrigger: {
+        trigger: "#projects",
+        start: "top top",
+        end: "+=" + totalScroll,
+        pin: true,
+        scrub: 2,
+        anticipatePin: 1,
+
+        onUpdate: (self) => {
+          const progressPercent = self.progress * 100;
+          mask.style.width = progressPercent + "%"; // Now accurate
+        }
+      }
+    });
+  });
+} else {
+  document.querySelector(".horizontal-wrapper").style.transform = "none";
+}
