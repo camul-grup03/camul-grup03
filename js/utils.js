@@ -57,3 +57,26 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
     }
   });
 });
+
+async function loadProjects() {
+  const res = await fetch('../DB/projects.json', {cache: "no-cache"});
+  if (!res.ok) throw new Error('Could not load projects.json');
+  return res.json();
+}
+
+async function sendContactMessage(formData) {
+  try {
+    const res = await fetch("../api/sendMail.php", {
+      method: "POST",
+      body: formData
+    });
+
+    if (!res.ok) throw new Error("Server error");
+
+    const result = await res.text();
+    return { success: true, message: result };
+
+  } catch (err) {
+    return { success: false, message: err.message };
+  }
+}

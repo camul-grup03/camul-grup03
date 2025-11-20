@@ -86,42 +86,44 @@ body {
   align-items: center;
   overflow-x: hidden;
   position: relative;
+  height: 100vh;
 }
 
 /*container*/
 .horizontal-wrapper {
-  padding-top: 4vh;
+  padding-top: 10vh;
   display: flex;
   width: 100vw;
   height: 80vh;
 }
 
-.panel:last-child {
+.panel-link:last-child  {
   padding-right: 2vw;
 }
 
-.panel:first-child img {
+.panel-link:first-child img {
   width: 50vw;
 }
 
-.panel img {
+.panel-link img {
   width: 30vw;
   padding-bottom: 1vw;
 }
 
-.panel {
+.panel-link {
   height: 100%;
   display: flex;
   flex-direction: column;
   padding-right: 5vw;
+  text-decoration: none;
 }
 
-.panel p, .panel h1 {
+.panel-link p, .panel-link h1 {
   margin: 0px;
-  padding-top: 1vw;
+  color: #272727;
 }
 
-.panel:nth-child(odd):not(:nth-child(1)):not(:nth-child(2)) {
+.panel-link:nth-child(odd):not(:nth-child(1)):not(:nth-child(2)) {
   justify-content: flex-end;
 }
 
@@ -238,7 +240,7 @@ body {
 #contactForm textarea {
   border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 35px;
   font-size: 1rem;
 }
 
@@ -247,7 +249,7 @@ body {
   color: white;
   border: none;
   padding: 12px;
-  border-radius: 6px;
+  border-radius: 35px;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -277,6 +279,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10vw 0vw;
+  padding-bottom: 15vw;
 }
 
 #faq-section h2 {
@@ -339,14 +342,14 @@ body {
     padding-top: 4vh;
   }
 
-  .panel {
+  .panel-link {
     width: 90%;
     padding-right: 0;
     margin-bottom: 5vh;
   }
 
-  .panel:first-child img,
-  .panel img {
+  .panel-link:first-child img,
+  .panel-link img {
     width: 100%;
   }
 

@@ -50,38 +50,7 @@
       </svg>
 
       <div class="horizontal-wrapper">
-        <section class="panel">
-          <img
-            src="../img/pexels-pixabay-356036.webp"
-            alt="A preview image of the marketing plan developed"
-          />
-          <p>A project about this website plan for advertising.</p>
-          <h1>Marketing Plan</h1>
-        </section>
-        <section class="panel">
-          <img
-            src="../img/pexels-pixabay-356036.webp"
-            alt="A preview image of the marketing plan developed"
-          />
-          <p>A project about this website plan for advertising.</p>
-          <h1>Marketing Plan</h1>
-        </section>
-        <section class="panel">
-          <img
-            src="../img/pexels-pixabay-356036.webp"
-            alt="A preview image of the marketing plan developed"
-          />
-          <p>A project about this website plan for advertising.</p>
-          <h1>Marketing Plan</h1>
-        </section>
-        <section class="panel">
-          <img
-            src="../img/pexels-pixabay-356036.webp"
-            alt="A preview image of the marketing plan developed"
-          />
-          <p>A project about this website plan for advertising.</p>
-          <h1>Marketing Plan</h1>
-        </section>
+        <!-- project list goes here -->
       </div>
     </div>
     <div id="about-us">
@@ -161,21 +130,22 @@
           Is there anything we can help you with? Please contact us!
         </p>
 
-        <form id="contactForm">
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="0ba58831-4f35-47bc-8335-0a8c271b5e9c" />
+
           <label>Name</label>
           <input type="text" name="name" required />
-      
+
           <label>Email</label>
           <input type="email" name="email" required />
 
           <label>Topic</label>
           <input type="text" name="topic" required />
-      
+
           <label>Message</label>
           <textarea name="message" rows="4" required></textarea>
-      
+
           <button type="submit">Send Message</button>
-      
           <p id="form-status"></p>
         </form>
       </div>
@@ -211,10 +181,34 @@
         </div>
       </div>
     </div>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="../js/HomePage.js"></script>
+
     <script src="../js/utils.js"></script>
+    
+    <script>
+      loadProjects().then(projects => {
+        const container = document.querySelector('.horizontal-wrapper');
+        projects.forEach(p => {
+          const a = document.createElement('a');
+          a.href = `project.html?id=${p.id}`;
+          a.className = 'panel-link';
+          a.innerHTML = `
+            <section className="panel">
+              <img
+              src="${p.hero}"
+              alt="${p.title}d"
+              />
+              <p>${p.subtitle}</p>
+              <h1>${p.title}</h1>
+            </section>
+            `;
+            container.appendChild(a);
+          });
+          initHorizontalScroll();
+        });
+    </script>
   </body>
 </html>

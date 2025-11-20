@@ -1,0 +1,54 @@
+
+[
+  {
+    "id": "purple-color",
+    "title": "The Purple Color",
+    "subtitle": "A bit of history of the color purple and its use in multimedia.",
+    "hero": "../img/pexels-pixabay-356036.webp",
+    "gallery": [
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp",
+      "../img/pexels-pixabay-356036.webp"
+    ],
+    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus odio, porta at tempus sit amet, pretium eu ante. Vivamus sed ante ac mauris accumsan pharetra.",
+    "technologies": ["Prezi", "Wikipedia"],
+    "download": "files/purple-color.zip"
+  },
+
+  {
+    "id": "example-2",
+    "title": "Project Two",
+    "subtitle": "Short subtitle for project two.",
+    "hero": "../img/pexels-pixabay-356036.webp",
+    "gallery": [],
+    "context": "Short description of project two, how it was made and aims.",
+    "technologies": ["HTML", "CSS"],
+    "download": ""
+  },
+
+  {
+    "id": "example-3",
+    "title": "Project Three",
+    "subtitle": "Short subtitle for project three.",
+    "hero": "../img/pexels-pixabay-356036.webp",
+    "gallery": [],
+    "context": "Short description of project three, how it was made and aims.",
+    "technologies": ["HTML", "CSS"],
+    "download": ""
+  },
+
+  {
+    "id": "example-4",
+    "title": "Project Four",
+    "subtitle": "Short subtitle for project four.",
+    "hero": "../img/pexels-pixabay-356036.webp",
+    "gallery": [],
+    "context": "Short description of project four, how it was made and aims.",
+    "technologies": ["HTML", "CSS"],
+    "download": ""
+  }
+]
