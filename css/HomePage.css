@@ -97,7 +97,7 @@ body {
   height: 80vh;
 }
 
-.panel-link:last-child  {
+.panel-link:last-child {
   padding-right: 2vw;
 }
 
@@ -106,8 +106,9 @@ body {
 }
 
 .panel-link img {
+  border-radius: 5px;
   width: 30vw;
-  padding-bottom: 1vw;
+  margin-bottom: 1vw;
 }
 
 .panel-link {
@@ -118,9 +119,15 @@ body {
   text-decoration: none;
 }
 
-.panel-link p, .panel-link h1 {
+.panel-link p,
+.panel-link h1 {
+  font-size: 1.8vw;
   margin: 0px;
   color: #272727;
+}
+
+.panel-link h1 {
+  font-size: 4vw;
 }
 
 .panel-link:nth-child(odd):not(:nth-child(1)):not(:nth-child(2)) {
@@ -334,27 +341,18 @@ body {
 }
 
 @media (max-width: 800px) {
-  .horizontal-wrapper {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    padding-top: 4vh;
+  .panel-link img {
+    width: 50vw;
+    aspect-ratio: 3/4;
+    object-fit: cover;
   }
 
   .panel-link {
-    width: 90%;
-    padding-right: 0;
     margin-bottom: 5vh;
   }
 
-  .panel-link:first-child img,
-  .panel-link img {
-    width: 100%;
-  }
-
-  #svg-progress {
-    display: none;
+  .panel-link:first-child img {
+    width: 70vw;
   }
 
   .container {
@@ -421,9 +419,11 @@ body {
   #faq-section h2 {
     font-size: 12vw;
   }
+
   .faq-question {
     font-size: 6vw;
   }
+
   .faq-answer p {
     font-size: 4vw;
   }
@@ -434,11 +434,13 @@ body {
     margin-left: -2.9px;
     background-position: center 0%;
   }
+
   #navbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+
   #navbar a:nth-child(2),
   #navbar a:nth-child(4) {
     justify-self: end;

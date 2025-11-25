@@ -1,0 +1,147 @@
+/* --- base from your style (kept mostly intact) --- */
+body {
+  background-color: #eeeadf;
+  margin: 0px;
+  padding: 0px;
+  font-family: "SugoClassic";
+  color: #272727;
+}
+
+@font-face {
+  font-family: "SugoClassic";
+  src: url("../fonts/SugoTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SugoLight";
+  src: url("../fonts/Sugo_ExtraLightTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mooc-header {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+}
+
+/* header and hero */
+#header {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 5vh;
+  padding: 1vw;
+}
+
+#header img {
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 76%;
+  border-radius: 8px;
+}
+
+.title-text {
+  font-size: 40pt;
+  font-weight: 900;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -10px;
+  margin-left: -7px;
+
+  background-image: url("../img/pexels-pixabay-356036.webp");
+  background-size: cover;
+  background-position: top 20%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#navbar {
+  margin: 5vh;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a {
+  display: flex;
+  flex-direction: column;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+#navbar a span:last-child {
+  font-family: "SugoLight";
+}
+
+/* wrapper */
+#projects {
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 60vh;
+}
+
+/* content sections */
+section {
+  max-width: 1100px;
+  width: 100%;
+  padding: 1vw;
+  background: transparent;
+}
+
+section h2 {
+  font-size: 2.6rem;
+  margin-bottom: 0.6rem;
+}
+
+section p {
+  font-size: 1.5vw;
+  font-family: "SugoLight";
+}
+/* small button like hero start */
+.start-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 20px;
+  background: #272727;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* container for lessons */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+/* lesson card (mimic your cards lightly) */
+.lesson-card {
+  background-color: #fff9eb;
+  border-radius: 10px;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  border-left: 6px solid rgba(39, 39, 39, 0.08);
+}
+
+.lesson-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

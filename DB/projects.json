@@ -1,54 +1,111 @@
-
 [
   {
-    "id": "purple-color",
-    "title": "The Purple Color",
-    "subtitle": "A bit of history of the color purple and its use in multimedia.",
-    "hero": "../img/pexels-pixabay-356036.webp",
+    "id": "significado-da-cor",
+    "title": "The Meaning of Color",
+    "subtitle": "Slides, document and report about the communicative impact of color.",
+    "hero": "../img/Hero_Color.png",
     "gallery": [
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp",
-      "../img/pexels-pixabay-356036.webp"
+      "../img/Hero_Color.png",
+      "../img/2_Color.png",
+      "../img/3_Color.png",
+      "../img/4_Color.png",
+      "../img/5_Color.png",
+      "../img/6_Color.png",
+      "../img/7_Color.png"
     ],
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus odio, porta at tempus sit amet, pretium eu ante. Vivamus sed ante ac mauris accumsan pharetra.",
-    "technologies": ["Prezi", "Wikipedia"],
-    "download": "files/purple-color.zip"
+    "context": "This project explores the role of color in visual communication through a sequence of complementary deliverables, including a slide presentation, a written document, and a detailed analytical report. The work investigates how color influences perception, emotional response, branding strategies and cultural interpretation, with particular focus on the symbolic and communicative dimensions of the color purple. Research included academic sources, historical references and multimedia examples, culminating in a structured analysis that demonstrates the importance of chromatic choices in design and visual storytelling.",
+    "technologies": ["Prezi", "Research", "Document Writing"],
+    "download": "../files/significado-da-cor.zip"
   },
 
   {
-    "id": "example-2",
-    "title": "Project Two",
-    "subtitle": "Short subtitle for project two.",
-    "hero": "../img/pexels-pixabay-356036.webp",
-    "gallery": [],
-    "context": "Short description of project two, how it was made and aims.",
-    "technologies": ["HTML", "CSS"],
-    "download": ""
+    "id": "avatar",
+    "title": "Avatar — Visual Representation Exercise",
+    "subtitle": "Creation of a stylized digital avatar.",
+    "hero": "../img/Hero_Avatar.png",
+    "gallery": [
+      "../img/2_Avatar.png",
+      "../img/3_Avatar.png",
+      "../img/4_Avatar.png",
+      "../img/6_Avatar.png",
+      "../img/5_Avatar.png",
+      "../img/Hero_Avatar.png",
+      "https://studio.d-id.com/share?id=c94a42ade2d6dfdb967b9bb101e19c6b&utm_source=copy"
+    ],
+    "context": "This project focused on the creation of a personalized digital avatar while exploring concepts related to visual identity, stylization and symbolic communication. The work involved experimenting with AI-based tools, such as D-ID, to generate expressive facial animations and enhance the avatar’s narrative potential. The process also required visual refinement, consistency checks and adjustments to ensure coherence between personality, aesthetic choices and the intended communication purpose. The final result is a stylized representation that balances creativity, technology and design principles.",
+    "technologies": ["Artificial Intelligence", "D-ID", "Graphic Design"],
+    "download": "../files/avatar.zip"
   },
 
   {
-    "id": "example-3",
-    "title": "Project Three",
-    "subtitle": "Short subtitle for project three.",
-    "hero": "../img/pexels-pixabay-356036.webp",
-    "gallery": [],
-    "context": "Short description of project three, how it was made and aims.",
-    "technologies": ["HTML", "CSS"],
-    "download": ""
+    "id": "visual-composition",
+    "title": "Visual Composition",
+    "subtitle": "Conceptual platform, documentation and quality evaluation.",
+    "hero": "../img/Hero_VisualComp.png",
+    "gallery": [
+      "../img/3_VisualComp.png",
+      "../img/6_VisualComp.png",
+      "../img/5_VisualComp.png",
+      "../img/Hero_VisualComp.png",
+      "../img/4_VisualComp.png",
+      "../img/2_VisualComp.png",
+      "../img/7_VisualComp.png"
+    ],
+    "context": "This set of deliverables explores the foundations of visual composition through theoretical research, practical application and the development of a conceptual platform dedicated to the topic. The project examines the roles of balance, hierarchy, rhythm, structure and harmony in building effective visual systems, and includes an analytical report evaluating compositional quality in a selected case study. The work integrates design principles, multimedia documentation and visual experimentation, resulting in a cohesive set of materials that demonstrates both conceptual understanding and applied design thinking.",
+    "technologies": ["UI/UX Principles", "Visual Design", "Documentation"],
+    "download": "../files/composicao-visual.zip"
   },
 
   {
-    "id": "example-4",
-    "title": "Project Four",
-    "subtitle": "Short subtitle for project four.",
-    "hero": "../img/pexels-pixabay-356036.webp",
-    "gallery": [],
-    "context": "Short description of project four, how it was made and aims.",
-    "technologies": ["HTML", "CSS"],
-    "download": ""
+    "id": "web-platform",
+    "title": "Web Multimedia Platform — Full Documentation",
+    "subtitle": "Scope Document, structure, Gantt, QEF, storyboard and marketing plan.",
+    "hero": "../img/Hero_WebPlatform.png",
+    "gallery": [
+      "../img/Hero_WebPlatform.png",
+      "../img/2_WebPlatform.png",
+      "../img/3_WebPlatform.png",
+      "../img/4_WebPlatform.png",
+      "../img/5_WebPlatform.png",
+      "../img/6_WebPlatform.png",
+      "../img/7_WebPlatform.png"
+    ],
+    "context": "This project comprises a full documentation package for the development of a multimedia web platform. It includes the Scope Document, functional and structural definitions, chronological planning supported by a detailed Gantt chart, and a QEF-based usability and user experience evaluation. Additional components include initial drafts, template versions, storyboard creation and a structured marketing strategy for launch stages and audience engagement. The documentation simulates a real-world production pipeline, emphasizing clarity, planning accuracy and methodological rigor across all phases of development.",
+    "technologies": [
+      "Project Planning",
+      "Gantt Charts",
+      "UX Evaluation (QEF)",
+      "Storyboarding",
+      "Marketing Strategy"
+    ],
+    "download": "../files/scope-document.zip"
+  },
+
+  {
+    "id": "mooc-platform",
+    "title": "MOOC — Intelligent Monitoring for Energy Storage Optimization",
+    "subtitle": "Design, planning and development of a full online course using Genially, Matterport and Udemy.",
+    "hero": "../img/Hero_MOOC.png",
+    "gallery": [
+      "../img/Hero_MOOC.png",
+      "../img/2_MOOC.png",
+      "../img/3_MOOC.png",
+      "../img/4_MOOC.png",
+      "../img/5_MOOC.png",
+      "../img/6_MOOC.png",
+      "../img/7_MOOC.png"
+    ],
+    "context": "This project involved the full development of a MOOC (Massive Open Online Course) on intelligent monitoring and energy storage optimization, created for the curricular unit 'Conception and Multimedia Authoring'. The work required structuring pedagogical content into four modules—solar energy, energy storage systems, the Iberian electricity market (OMIE), and intelligent monitoring strategies—while ensuring conceptual clarity and accessibility for a broad online audience. The project included video production, interactive elements developed in Genially, and adapted 3D space explorations using Matterport. It also demanded strong planning and team coordination, especially when managing unforeseen constraints such as the inability to perform on-site photogrammetry. All materials were ultimately integrated and published on Udemy, where the course was tested and evaluated by users. The final result is a well-structured learning experience that reflects both pedagogical design and multimedia production skills.",
+    "technologies": [
+      "Instructional Design",
+      "Genially",
+      "Matterport",
+      "Udemy",
+      "Video Production",
+      "Project Planning (Gantt)",
+      "Collaborative Workflows",
+      "Pedagogical Design"
+    ],
+    "download": "../files/mooc-platform.zip"
   }
 ]
