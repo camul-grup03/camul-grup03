@@ -2,7 +2,6 @@
   {
     "id": "aula-1",
     "title": "Introdução às Energias Renováveis e o Papel da Energia Solar",
-    "hero": "../img/aulas/aula1/hero.png",
 
     "content": [
       {
@@ -16,14 +15,11 @@
 {
     "id": "aula-2",
     "title": "Princípios de Funcionamento dos Paineis Fotovoltaicos",
-    "hero": "../img/aulas/aula1/hero.png",
 
     "content": [
       {
         "type": "text",
-        "body": "A energia solar fotovoltaica baseia-se num princípio simples: transformar a luz solar em eletricidade. Isso acontece através do efeito fotovoltaico, descoberto no século XIX.
-
-Quando a luz solar incide sobre a superfície de uma célula fotovoltaica, os fotões, ou seja, as partículas de luz, transferem energia para os eletrões que se encontram no interior do material semicondutor, normalmente silício. Essa energia extra liberta esses eletrões das suas posições habituais e cria um fluxo de corrente elétrica. É esse fluxo de elétrons que forma a eletricidade."
+        "body": "A energia solar fotovoltaica baseia-se num princípio simples: transformar a luz solar em eletricidade. Isso acontece através do efeito fotovoltaico, descoberto no século XIX. \n Quando a luz solar incide sobre a superfície de uma célula fotovoltaica, os fotões, ou seja, as partículas de luz, transferem energia para os eletrões que se encontram no interior do material semicondutor, normalmente silício. Essa energia extra liberta esses eletrões das suas posições habituais e cria um fluxo de corrente elétrica. É esse fluxo de elétrons que forma a eletricidade."
       },
 	{
         "type": "image",
@@ -31,233 +27,147 @@ Quando a luz solar incide sobre a superfície de uma célula fotovoltaica, os fo
         "caption": "Figura 1 - Representação do efeito fotovoltaico"
       },
 	{
-        "type": "text",
-        "body": "Para que esse processo ocorra de forma controlada, as células são fabricadas com duas camadas de silício com propriedades diferentes:
-
-uma camada tipo N, rica em eletrões (negativa);
-uma camada tipo P, rica em lacunas (positiva).
-
-Onde estas duas camadas se encontram, forma-se um campo elétrico interno que guia os elétrons libertados pela luz solar numa única direção. Quando os terminais da célula são ligados a um circuito externo, é produzido um fluxo constante de eletricidade, conhecido como corrente contínua (CC).
-
-Cada célula solar produz apenas uma pequena tensão de cerca de 0,5 V e, portanto, várias células devem ser conectadas em série e em paralelo para formar um painel fotovoltaico capaz de fornecer tensões e correntes úteis."
-      },
+      "type": "text",
+      "body": "Para que esse processo ocorra de forma controlada, as células são fabricadas com duas camadas de silício com propriedades diferentes: \n uma camada tipo N, rica em eletrões (negativa); \n  uma camada tipo P, rica em lacunas (positiva). \n  Onde estas duas camadas se encontram, forma-se um campo elétrico interno que guia os elétrons libertados pela luz solar numa única direção. Quando os terminais da célula são ligados a um circuito externo, é produzido um fluxo constante de eletricidade, conhecido como corrente contínua (CC). Cada célula solar produz apenas uma pequena tensão de cerca de 0,5 V e, portanto, várias células devem ser conectadas em série e em paralelo para formar um painel fotovoltaico capaz de fornecer tensões e correntes úteis."
+     },
 	{
-        "type": "image",
-        "src": "content/aula_2_fig_2.webp",
-        "caption": "Figura 2 — Estrutura de um painel solar"
-      },
+       "type": "image",
+       "src": "content/aula_2_fig_2.webp",
+       "caption": "Figura 2 — Estrutura de um painel solar"
+     },
 	{
         "type": "text",
-        "body": "Os principais componentes de um painel fotovoltaico incluem:
-
-Moldura de Alumínio – Proporciona rigidez e proteção mecânica ao módulo.
-Vidro Especial – Protege as células contra impactos e intempéries, permitindo a passagem da luz solar com mínima reflexão.
-Encapsulante (EVA) – Material transparente que fixa as células fotovoltaicas e assegura isolamento elétrico.
-Células Fotovoltaicas – Elementos semicondutores que convertem a luz solar em energia elétrica.
-Encapsulante (EVA) – Segunda camada de proteção que mantém as células seladas e estáveis.
-Backsheet (camada posterior) – Isola e protege o conjunto contra humidade e danos mecânicos.
-Caixa de Junção – Local onde os cabos se conectam ao exterior, permitindo a ligação elétrica do painel.
-
-O funcionamento de um painel fotovoltaico depende da quantidade de radiação solar que recebe e da qualidade dos materiais envolvidos, entre outros fatores. Em condições em que a luz é mais intensa e as perdas térmicas mínimas, a eficiência será máxima."
+        "body": "Os principais componentes de um painel fotovoltaico incluem: \n Moldura de Alumínio – Proporciona rigidez e proteção mecânica ao módulo. \n Vidro Especial – Protege as células contra impactos e intempéries, permitindo a passagem da luz solar com mínima reflexão.\n Encapsulante (EVA) – Material transparente que fixa as células fotovoltaicas e assegura isolamento elétrico.\n Células Fotovoltaicas – Elementos semicondutores que convertem a luz solar em energia elétrica.\n Encapsulante (EVA) – Segunda camada de proteção que mantém as células seladas e estáveis.\n Backsheet (camada posterior) – Isola e protege o conjunto contra humidade e danos mecânicos.\n Caixa de Junção – Local onde os cabos se conectam ao exterior, permitindo a ligação elétrica do painel.\n \n O funcionamento de um painel fotovoltaico depende da quantidade de radiação solar que recebe e da qualidade dos materiais envolvidos, entre outros fatores. Em condições em que a luz é mais intensa e as perdas térmicas mínimas, a eficiência será máxima."
       },
 	{
-        "type": "image",
-        "src": "content/aula_2_fig_3.webp",
-        "caption": "Figura 3 — Fluxo de energia num sistema fotovoltaico"
-      },
+       "type": "image",
+       "src": "content/aula_2_fig_3.webp",
+       "caption": "Figura 3 — Fluxo de energia num sistema fotovoltaico"
+     },
 	{
-        "type": "text",
-        "body": "Nos sistemas ligados à rede, a eletricidade CC (corrente continua) gerada é convertida em CA (corrente alternada) através de um inversor, que é compatível com a rede elétrica. Para sistemas fora da rede, a energia é armazenada em baterias para uso posterior.
-
-
-Em suma, o painel fotovoltaico é a peça central que torna possível a conversão da luz solar em eletricidade útil para aplicações quotidianas. Embora o princípio físico por trás dele possa ser simples, o seu desempenho depende da combinação precisa de materiais, camadas e processos de fabrico.
-
-A eficiência e durabilidade de um painel resultam de componentes de qualidade, desde a pureza do silício nas células até à proteção proporcionada pelos encapsulantes e pela estrutura exterior. Cada pequeno detalhe é projetado para maximizar a captura de luz, minimizar perdas e garantir que o sistema mantenha o desempenho ao longo de décadas de operação.
-
-Mais do que uma tecnologia, a energia fotovoltaica representa uma forma de usar diretamente um recurso natural abundante e limpo. Cada painel instalado contribui para a redução das emissões, para ganhos em independência energética e aproxima as comunidades e os consumidores de um modelo mais sustentável. Compreender como funciona um painel solar significa, portanto, compreender o primeiro passo de toda a cadeia que diz respeito à produção de energia a partir do sol, um processo no qual a ciência, a inovação e a responsabilidade se combinam para transformar a luz do sol numa fonte segura e acessível de energia elétrica."
-      }
+       "type": "text",
+       "body": "Nos sistemas ligados à rede, a eletricidade CC (corrente continua) gerada é convertida em CA (corrente alternada) através de um inversor, que é compatível com a rede elétrica. Para sistemas fora da rede, a energia é armazenada em baterias para uso posterior.\n \n Em suma, o painel fotovoltaico é a peça central que torna possível a conversão da luz solar em eletricidade útil para aplicações quotidianas. Embora o princípio físico por trás dele possa ser simples, o seu desempenho depende da combinação precisa de materiais, camadas e processos de fabrico.\n A eficiência e durabilidade de um painel resultam de componentes de qualidade, desde a pureza do silício nas células até à proteção proporcionada pelos encapsulantes e pela estrutura exterior. Cada pequeno detalhe é projetado para maximizar a captura de luz, minimizar perdas e garantir que o sistema mantenha o desempenho ao longo de décadas de operação.\n Mais do que uma tecnologia, a energia fotovoltaica representa uma forma de usar diretamente um recurso natural abundante e limpo. Cada painel instalado contribui para a redução das emissões, para ganhos em independência energética e aproxima as comunidades e os consumidores de um modelo mais sustentável. Compreender como funciona um painel solar significa, portanto, compreender o primeiro passo de toda a cadeia que diz respeito à produção de energia a partir do sol, um processo no qual a ciência, a inovação e a responsabilidade se combinam para transformar a luz do sol numa fonte segura e acessível de energia elétrica."
+     }
     ]
   },
 
 {
-    "id": "aula-3",
-    "title": "Tipos de Sistemas Fotovoltaicos",
-    "hero": "../img/aulas/aula1/hero.png",
+   "id": "aula-3",
+   "title": "Tipos de Sistemas Fotovoltaicos",
 
-    "content": [
-      {
-        "type": "text",
-        "body": "A energia solar fotovoltaica pode ser aproveitada de diversas formas, dependendo da forma como o sistema é configurado e ligado (ou não) à rede elétrica pública.
-Cada tipo de sistema apresenta vantagens, limitações e aplicações distintas, adaptando-se a diferentes perfis de consumo, locais de instalação e objetivos energéticos.
-
-De forma geral, distinguem-se três tipos principais de sistemas fotovoltaicos: on-grid, off-grid e híbridos.
-
-
-
-Sistema On-grid (Ligado à Rede)
-O sistema on-grid é o mais utilizado em áreas residenciais e comerciais com acesso à rede elétrica. Neste tipo de instalação, a eletricidade produzida pelos painéis solares é convertida em corrente alternada através de um inversor, sendo utilizada prioritariamente para o consumo local.
-
-Quando a produção solar excede o consumo, o excedente é exportado para a rede, originando um crédito de energia que reduz o custo da fatura elétrica. Durante a noite ou em períodos de menor produção solar, a eletricidade é automaticamente fornecida pela rede pública.
-
-Uma das principais vantagens deste sistema é o baixo custo de implementação, já que não necessita de baterias para armazenamento. Além disso, a manutenção é reduzida e a eficiência é elevada, pois praticamente toda a energia é usada em tempo real.
-
-No entanto, por razões de segurança, o sistema desliga-se automaticamente em caso de falha da rede, o que significa que não fornece energia durante apagões, mesmo que os painéis estejam a produzir."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_3_fig_1.webp",
-        "caption": "Figura 1 - Exemplo de instalação fotovoltaica on-grid residencial, com ligação direta à rede elétrica"
-      },
+   "content": [
+     {
+       "type": "text",
+       "body": "A energia solar fotovoltaica pode ser aproveitada de diversas formas, dependendo da forma como o sistema é configurado e ligado (ou não) à rede elétrica pública.\n Cada tipo de sistema apresenta vantagens, limitações e aplicações distintas, adaptando-se a diferentes perfis de consumo, locais de instalação e objetivos energéticos.\n De forma geral, distinguem-se três tipos principais de sistemas fotovoltaicos: on-grid, off-grid e híbridos.\n \n Sistema On-grid (Ligado à Rede)\n O sistema on-grid é o mais utilizado em áreas residenciais e comerciais com acesso à rede elétrica. Neste tipo de instalação, a eletricidade produzida pelos painéis solares é convertida em corrente alternada através de um inversor, sendo utilizada prioritariamente para o consumo local.\n Quando a produção solar excede o consumo, o excedente é exportado para a rede, originando um crédito de energia que reduz o custo da fatura elétrica. Durante a noite ou em períodos de menor produção solar, a eletricidade é automaticamente fornecida pela rede pública.\n Uma das principais vantagens deste sistema é o baixo custo de implementação, já que não necessita de baterias para armazenamento. Além disso, a manutenção é reduzida e a eficiência é elevada, pois praticamente toda a energia é usada em tempo real.\n No entanto, por razões de segurança, o sistema desliga-se automaticamente em caso de falha da rede, o que significa que não fornece energia durante apagões, mesmo que os painéis estejam a produzir."
+     },
 	{
-        "type": "image",
-        "src": "content/aula_3_fig_2.webp"
-      },
-
- 	{
-        "type": "text",
-        "body": "Sistema Off-grid (Isolado da Rede)
-Os sistemas off-grid funcionam de forma totalmente independente da rede elétrica. Toda a energia produzida é armazenada em baterias, permitindo a alimentação contínua de equipamentos, mesmo à noite ou em dias sem sol.
-
-Este tipo de sistema é comum em zonas rurais, abrigos de montanha, explorações agrícolas e habitações isoladas, onde a ligação à rede seria tecnicamente difícil ou economicamente inviável.
-
-A estrutura básica inclui painéis solares, um controlador de carga, baterias e um inversor. O controlador regula a energia enviada para as baterias, evitando sobrecargas, enquanto o inversor converte a corrente contínua armazenada em corrente alternada para uso doméstico.
-
-Embora o investimento inicial seja mais elevado, sobretudo devido ao custo das baterias, os sistemas off-grid oferecem total autonomia e independência energética. Com a evolução das tecnologias de armazenamento (como as baterias de lítio e soluções de segunda vida), a eficiência e durabilidade destes sistemas têm vindo a aumentar significativamente."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_3_fig_3.webp",
-        "caption": "Figura 2 - Sistema off-grid com baterias de armazenamento e controlador de carga"
-      },
+       "type": "image",
+       "src": "content/aula_3_fig_1.webp",
+       "caption": "Figura 1 - Exemplo de instalação fotovoltaica on-grid residencial, com ligação direta à rede elétrica"
+     },
 	{
-        "type": "image",
-        "src": "content/aula_3_fig_4.webp",
-        "caption": "Figura 3 - Instalação off-grid: Residencial"
-      },
+       "type": "image",
+       "src": "content/aula_3_fig_2.webp"
+     },
 
- 	{
-        "type": "text",
-        "body": "Sistema Híbrido
-O sistema híbrido combina o melhor dos dois mundos: a ligação à rede elétrica do sistema on-grid e a capacidade de armazenamento do sistema off-grid.
-
-Durante o dia, a energia solar é usada diretamente para o consumo e o excedente é armazenado em baterias. Quando a produção solar diminui, por exemplo, durante a noite ou em dias nublados, o sistema utiliza primeiro a energia armazenada e, apenas se necessário, recorre à rede elétrica.
-
-Além da flexibilidade, este tipo de sistema oferece resiliência e segurança energética: em caso de falha da rede, o inversor híbrido pode continuar a alimentar as cargas prioritárias, garantindo funcionamento contínuo de equipamentos essenciais.
-
-É também a solução mais avançada em termos de gestão inteligente de energia, pois permite monitorização em tempo real, priorização de fontes e integração com algoritmos de previsão para otimização do autoconsumo."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_3_fig_5.webp",
-        "caption": "Figura 3 — Fluxo de energia num sistema fotovoltaico"
-      },
 	{
-        "type": "image",
-        "src": "content/aula_3_fig_6.webp",
-        "caption": "Figura 5 - Instalação híbrida: Residencial"
-      },
+       "type": "text",
+       "body": "Sistema Off-grid (Isolado da Rede)\n \n Os sistemas off-grid funcionam de forma totalmente independente da rede elétrica. Toda a energia produzida é armazenada em baterias, permitindo a alimentação contínua de equipamentos, mesmo à noite ou em dias sem sol.\n Este tipo de sistema é comum em zonas rurais, abrigos de montanha, explorações agrícolas e habitações isoladas, onde a ligação à rede seria tecnicamente difícil ou economicamente inviável.\n A estrutura básica inclui painéis solares, um controlador de carga, baterias e um inversor. O controlador regula a energia enviada para as baterias, evitando sobrecargas, enquanto o inversor converte a corrente contínua armazenada em corrente alternada para uso doméstico.\n Embora o investimento inicial seja mais elevado, sobretudo devido ao custo das baterias, os sistemas off-grid oferecem total autonomia e independência energética. Com a evolução das tecnologias de armazenamento (como as baterias de lítio e soluções de segunda vida), a eficiência e durabilidade destes sistemas têm vindo a aumentar significativamente."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_3_fig_3.webp",
+       "caption": "Figura 2 - Sistema off-grid com baterias de armazenamento e controlador de carga"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_3_fig_4.webp",
+       "caption": "Figura 3 - Instalação off-grid: Residencial"
+     },
 
- 	{
-        "type": "text",
-        "body": "A escolha entre um sistema on-grid, off-grid ou híbrido deve ser feita com base nas condições locais, no perfil de consumo e nos objetivos de autonomia energética.
+	{
+       "type": "text",
+       "body": "Sistema Híbrido\n \n O sistema híbrido combina o melhor dos dois mundos: a ligação à rede elétrica do sistema on-grid e a capacidade de armazenamento do sistema off-grid.\n Durante o dia, a energia solar é usada diretamente para o consumo e o excedente é armazenado em baterias. Quando a produção solar diminui, por exemplo, durante a noite ou em dias nublados, o sistema utiliza primeiro a energia armazenada e, apenas se necessário, recorre à rede elétrica.\n Além da flexibilidade, este tipo de sistema oferece resiliência e segurança energética: em caso de falha da rede, o inversor híbrido pode continuar a alimentar as cargas prioritárias, garantindo funcionamento contínuo de equipamentos essenciais.\n É também a solução mais avançada em termos de gestão inteligente de energia, pois permite monitorização em tempo real, priorização de fontes e integração com algoritmos de previsão para otimização do autoconsumo."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_3_fig_5.webp",
+       "caption": "Figura 3 — Fluxo de energia num sistema fotovoltaico"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_3_fig_6.webp",
+       "caption": "Figura 5 - Instalação híbrida: Residencial"
+     },
 
-Nos centros urbanos e zonas com boa infraestrutura elétrica, os sistemas on-grid são geralmente a opção mais rentável e simples de implementar. Permitem reduzir a fatura energética e, em alguns casos, beneficiar de compensações pela energia excedente injetada na rede. São ideais para habitações, edifícios comerciais e pequenas empresas, onde o consumo é regular e o acesso à rede é estável.
-
-Em áreas remotas ou isoladas, onde a ligação à rede é inexistente ou dispendiosa, os sistemas off-grid asseguram autonomia total, recorrendo a baterias para armazenar a energia gerada. São particularmente adequados para zonas rurais, instalações agrícolas, refúgios de montanha ou infraestruturas temporárias, garantindo acesso contínuo à eletricidade mesmo em locais de difícil acesso.
-
-Os sistemas híbridos, por sua vez, combinam o melhor dos dois mundos: operam ligados à rede, mas dispõem também de armazenamento e controlo inteligente que lhes permite funcionar de forma independente em caso de falha. Tornam-se assim a escolha ideal para quem procura autossuficiência energética, maior segurança de abastecimento e otimização do consumo, por exemplo, em habitações modernas, parques industriais ou instalações críticas, como hospitais e centros de dados.
-
-Com a queda dos custos tecnológicos e o avanço da digitalização, estas soluções tornam-se cada vez mais acessíveis. A integração de sistemas de monitorização em tempo real e gestão inteligente da energia permite ajustar o consumo, prever a produção e maximizar a eficiência. Assim, cada utilizador pode transformar-se não apenas em consumidor, mas também em produtor ativo de energia limpa, contribuindo para uma rede elétrica mais sustentável, equilibrada e descentralizada."
-      }
-    ]
-  },
+	{
+       "type": "text",
+       "body": "A escolha entre um sistema on-grid, off-grid ou híbrido deve ser feita com base nas condições locais, no perfil de consumo e nos objetivos de autonomia energética.\n Nos centros urbanos e zonas com boa infraestrutura elétrica, os sistemas on-grid são geralmente a opção mais rentável e simples de implementar. Permitem reduzir a fatura energética e, em alguns casos, beneficiar de compensações pela energia excedente injetada na rede. São ideais para habitações, edifícios comerciais e pequenas empresas, onde o consumo é regular e o acesso à rede é estável.\n Em áreas remotas ou isoladas, onde a ligação à rede é inexistente ou dispendiosa, os sistemas off-grid asseguram autonomia total, recorrendo a baterias para armazenar a energia gerada. São particularmente adequados para zonas rurais, instalações agrícolas, refúgios de montanha ou infraestruturas temporárias, garantindo acesso contínuo à eletricidade mesmo em locais de difícil acesso.\n Os sistemas híbridos, por sua vez, combinam o melhor dos dois mundos: operam ligados à rede, mas dispõem também de armazenamento e controlo inteligente que lhes permite funcionar de forma independente em caso de falha. Tornam-se assim a escolha ideal para quem procura autossuficiência energética, maior segurança de abastecimento e otimização do consumo, por exemplo, em habitações modernas, parques industriais ou instalações críticas, como hospitais e centros de dados.\n Com a queda dos custos tecnológicos e o avanço da digitalização, estas soluções tornam-se cada vez mais acessíveis. A integração de sistemas de monitorização em tempo real e gestão inteligente da energia permite ajustar o consumo, prever a produção e maximizar a eficiência. Assim, cada utilizador pode transformar-se não apenas em consumidor, mas também em produtor ativo de energia limpa, contribuindo para uma rede elétrica mais sustentável, equilibrada e descentralizada."
+     }
+   ]
+ },
 
 {
-    "id": "aula-4",
-    "title": "Desafios da Energia Solar: Intermitência e Armazenamento",
-    "hero": "../img/aulas/aula1/hero.png",
+   "id": "aula-4",
+   "title": "Desafios da Energia Solar: Intermitência e Armazenamento",
 
-    "content": [
-      {
-        "type": "text",
-        "body": "A energia solar é uma das fontes renováveis mais promissoras e limpas, mas enfrenta um desafio fundamental: a intermitência. Ao contrário das centrais convencionais, a produção de eletricidade solar depende diretamente da disponibilidade da luz do Sol, que varia ao longo do dia, das estações do ano e das condições meteorológicas.
-
-Durante o dia, a produção aumenta gradualmente até atingir o pico solar, normalmente ao meio-dia, e depois decresce até parar completamente durante a noite. Em dias nublados, chuvosos ou de menor radiação, a geração pode ser reduzida de forma significativa. Esta variabilidade natural cria um desequilíbrio entre os momentos de maior produção e os de maior consumo, como acontece ao final da tarde, quando a procura sobe e a produção solar cai."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_4_fig_1.webp",
-        "caption": "Figura 1 - Gráfico de variação diária da produção solar e do consumo energético."
-      },
- 	{
-        "type": "text",
-        "body": "A localização geográfica também tem um papel determinante. Regiões com maior número de horas de sol anual, como o Alentejo ou o sul de Espanha, apresentam produções médias muito superiores às zonas mais atlânticas ou montanhosas. No entanto, mesmo nestas regiões favoráveis, é essencial garantir estabilidade e continuidade do fornecimento elétrico e é aqui que entra o armazenamento de energia.
-
-
-O armazenamento de energia é, portanto, o elo que liga a produção solar ao consumo real. Ao guardar o excedente produzido durante as horas de maior radiação, torna-se possível utilizá-lo nos períodos de menor geração, garantindo estabilidade e aproveitamento máximo dos recursos renováveis.
-
-A intermitência não é apenas uma questão de variação natural, mas um verdadeiro desafio para o equilíbrio da rede elétrica. O sistema tem de manter, em tempo real, o equilíbrio entre a energia produzida e a energia consumida. Quando a produção solar flutua de forma repentina, por exemplo, devido à passagem de nuvens, a rede precisa de compensar essa variação instantaneamente, recorrendo a outras fontes de geração mais flexíveis, como centrais térmicas ou hídricas.
-
-Além disso, nos períodos de elevada produção e baixa procura (como ao meio-dia em dias ensolarados), pode ocorrer excesso de energia, levando a quedas de preço no mercado e até à necessidade de limitar a injeção de eletricidade renovável na rede. Por outro lado, nos momentos de maior consumo e menor geração solar, é preciso ativar fontes de energia de reserva, frequentemente mais caras e poluentes.
-
-A tecnologia mais difundida atualmente é a bateria de iões de lítio, amplamente utilizada em sistemas domésticos e comerciais. Caracteriza-se pela elevada eficiência e capacidade de resposta quase instantânea, sendo ideal para equilibrar picos de consumo. No entanto, o seu custo e a dependência de matérias-primas como o lítio e o cobalto continuam a representar desafios relevantes.
-
-Para aplicações de maior escala, surgem as baterias de fluxo e outras soluções químicas avançadas, que permitem armazenar grandes quantidades de energia durante longos períodos. Estas tecnologias são especialmente adequadas para parques solares e redes regionais, onde a fiabilidade e a durabilidade são cruciais.
-
-Outra abordagem consiste no armazenamento térmico, que converte o excedente elétrico em calor. Este calor pode depois ser aproveitado em processos industriais, redes de aquecimento ou até para produção de eletricidade em momentos de maior procura, tornando o sistema mais versátil e eficiente.
-
-Por fim, o hidrogénio verde desponta como uma solução estratégica para o futuro energético. Através da eletrólise, a eletricidade solar é transformada em hidrogénio, um gás que pode ser armazenado por longos períodos e utilizado posteriormente para gerar eletricidade ou abastecer transportes e indústrias. Embora ainda em fase de expansão, o hidrogénio representa uma das vias mais promissoras para o armazenamento de larga duração e a descarbonização global.
-
-Em conjunto, estas tecnologias permitem transformar a variabilidade da energia solar num recurso controlável, aproximando-nos de um sistema elétrico mais equilibrado, resiliente e sustentável."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_4_fig_2.webp",
-        "caption": "Figura 2 - Bateria de Iões de Lítio: Residencial"
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_4_fig_3.webp",
-        "caption": "Figura 3 - Bateria de Fluxo: Industrial"
-      },
+   "content": [
+     {
+       "type": "text",
+       "body": "A energia solar é uma das fontes renováveis mais promissoras e limpas, mas enfrenta um desafio fundamental: a intermitência. Ao contrário das centrais convencionais, a produção de eletricidade solar depende diretamente da disponibilidade da luz do Sol, que varia ao longo do dia, das estações do ano e das condições meteorológicas.\n Durante o dia, a produção aumenta gradualmente até atingir o pico solar, normalmente ao meio-dia, e depois decresce até parar completamente durante a noite. Em dias nublados, chuvosos ou de menor radiação, a geração pode ser reduzida de forma significativa. Esta variabilidade natural cria um desequilíbrio entre os momentos de maior produção e os de maior consumo, como acontece ao final da tarde, quando a procura sobe e a produção solar cai."
+     },
 	{
-        "type": "image",
-        "src": "content/aula_4_fig_4.webp",
-        "caption": "Figura 4 - Armazenamento Térmico: Industrial"
-      },
+       "type": "image",
+       "src": "content/aula_4_fig_1.webp",
+       "caption": "Figura 1 - Gráfico de variação diária da produção solar e do consumo energético."
+     },
 	{
-        "type": "image",
-        "src": "content/aula_4_fig_5.webp",
-        "caption": "Figura 5 - Hidrogénio Verde: Industrial"
-      },
- 	{
-        "type": "text",
-        "body": "Com o avanço das redes inteligentes (smart grids) e dos sistemas de gestão energética, é cada vez mais possível integrar fontes renováveis intermitentes sem comprometer a estabilidade do sistema elétrico. A conjugação entre armazenamento local, monitorização em tempo real e previsão meteorológica permite ajustar automaticamente a produção e o consumo, reduzindo desperdícios e otimizando o uso da energia disponível.
-
-Além disso, surgem novas abordagens, como o armazenamento distribuído, onde múltiplas pequenas baterias residenciais e empresariais são geridas em conjunto, funcionando como uma única central virtual. Este modelo descentralizado aumenta a resiliência da rede e permite uma gestão mais eficiente dos recursos."
-      },
- 	{
-        "type": "image",
-        "src": "content/aula_4_fig_6.webp",
-        "caption": "Figura 6 – Exemplo de rede com armazenamento distribuído e gestão inteligente."
-      },
- 	{
-        "type": "text",
-        "body": "A intermitência é o principal desafio da energia solar, mas não uma limitação intransponível. A combinação de armazenamento eficiente, gestão inteligente e diversificação das fontes renováveis permite transformar um recurso variável numa componente estável do sistema energético.
-
-À medida que os custos das baterias e das tecnologias de hidrogénio continuam a descer, e que as redes se tornam mais inteligentes, a energia solar deixa de ser apenas uma alternativa, torna-se um pilar central de um futuro energético limpo, descentralizado e sustentável."
-      }
-    ]
-  },
+       "type": "text",
+       "body": "A localização geográfica também tem um papel determinante. Regiões com maior número de horas de sol anual, como o Alentejo ou o sul de Espanha, apresentam produções médias muito superiores às zonas mais atlânticas ou montanhosas. No entanto, mesmo nestas regiões favoráveis, é essencial garantir estabilidade e continuidade do fornecimento elétrico e é aqui que entra o armazenamento de energia.\n O armazenamento de energia é, portanto, o elo que liga a produção solar ao consumo real. Ao guardar o excedente produzido durante as horas de maior radiação, torna-se possível utilizá-lo nos períodos de menor geração, garantindo estabilidade e aproveitamento máximo dos recursos renováveis.\n A intermitência não é apenas uma questão de variação natural, mas um verdadeiro desafio para o equilíbrio da rede elétrica. O sistema tem de manter, em tempo real, o equilíbrio entre a energia produzida e a energia consumida. Quando a produção solar flutua de forma repentina, por exemplo, devido à passagem de nuvens, a rede precisa de compensar essa variação instantaneamente, recorrendo a outras fontes de geração mais flexíveis, como centrais térmicas ou hídricas.\n Além disso, nos períodos de elevada produção e baixa procura (como ao meio-dia em dias ensolarados), pode ocorrer excesso de energia, levando a quedas de preço no mercado e até à necessidade de limitar a injeção de eletricidade renovável na rede. Por outro lado, nos momentos de maior consumo e menor geração solar, é preciso ativar fontes de energia de reserva, frequentemente mais caras e poluentes.\n A tecnologia mais difundida atualmente é a bateria de iões de lítio, amplamente utilizada em sistemas domésticos e comerciais. Caracteriza-se pela elevada eficiência e capacidade de resposta quase instantânea, sendo ideal para equilibrar picos de consumo. No entanto, o seu custo e a dependência de matérias-primas como o lítio e o cobalto continuam a representar desafios relevantes.\n Para aplicações de maior escala, surgem as baterias de fluxo e outras soluções químicas avançadas, que permitem armazenar grandes quantidades de energia durante longos períodos. Estas tecnologias são especialmente adequadas para parques solares e redes regionais, onde a fiabilidade e a durabilidade são cruciais.\n Outra abordagem consiste no armazenamento térmico, que converte o excedente elétrico em calor. Este calor pode depois ser aproveitado em processos industriais, redes de aquecimento ou até para produção de eletricidade em momentos de maior procura, tornando o sistema mais versátil e eficiente.\n Por fim, o hidrogénio verde desponta como uma solução estratégica para o futuro energético. Através da eletrólise, a eletricidade solar é transformada em hidrogénio, um gás que pode ser armazenado por longos períodos e utilizado posteriormente para gerar eletricidade ou abastecer transportes e indústrias. Embora ainda em fase de expansão, o hidrogénio representa uma das vias mais promissoras para o armazenamento de larga duração e a descarbonização global.\n Em conjunto, estas tecnologias permitem transformar a variabilidade da energia solar num recurso controlável, aproximando-nos de um sistema elétrico mais equilibrado, resiliente e sustentável."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_4_fig_2.webp",
+       "caption": "Figura 2 - Bateria de Iões de Lítio: Residencial"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_4_fig_3.webp",
+       "caption": "Figura 3 - Bateria de Fluxo: Industrial"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_4_fig_4.webp",
+       "caption": "Figura 4 - Armazenamento Térmico: Industrial"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_4_fig_5.webp",
+       "caption": "Figura 5 - Hidrogénio Verde: Industrial"
+     },
+	{
+       "type": "text",
+       "body": "Com o avanço das redes inteligentes (smart grids) e dos sistemas de gestão energética, é cada vez mais possível integrar fontes renováveis intermitentes sem comprometer a estabilidade do sistema elétrico. A conjugação entre armazenamento local, monitorização em tempo real e previsão meteorológica permite ajustar automaticamente a produção e o consumo, reduzindo desperdícios e otimizando o uso da energia disponível.\n Além disso, surgem novas abordagens, como o armazenamento distribuído, onde múltiplas pequenas baterias residenciais e empresariais são geridas em conjunto, funcionando como uma única central virtual. Este modelo descentralizado aumenta a resiliência da rede e permite uma gestão mais eficiente dos recursos."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_4_fig_6.webp",
+       "caption": "Figura 6 – Exemplo de rede com armazenamento distribuído e gestão inteligente."
+     },
+	{
+       "type": "text",
+       "body": "A intermitência é o principal desafio da energia solar, mas não uma limitação intransponível. A combinação de armazenamento eficiente, gestão inteligente e diversificação das fontes renováveis permite transformar um recurso variável numa componente estável do sistema energético.\n À medida que os custos das baterias e das tecnologias de hidrogénio continuam a descer, e que as redes se tornam mais inteligentes, a energia solar deixa de ser apenas uma alternativa, torna-se um pilar central de um futuro energético limpo, descentralizado e sustentável."
+     }
+   ]
+ },
 {
-    "id": "aula-5",
-    "title": "Momento de Avaliação 1: Energia Solar Fotovoltaica",
-    "hero": "../img/aulas/aula1/hero.png",
+   "id": "aula-5",
+   "title": "Momento de Avaliação 1: Energia Solar Fotovoltaica",
 
-    "content": [
-      {
-        "type": "quiz",
-        "questions": [
+   "content": [
+     {
+       "type": "quiz",
+       "questions": [
 	{
           "question": "Qual das seguintes opções não é uma fonte de energia renovável?",
           "options": ["Solar", "Éolica", "Hidroelétrica", "Gás natural"],
@@ -269,58 +179,307 @@ Além disso, surgem novas abordagens, como o armazenamento distribuído, onde m�
           "correctIndex": 1
         },
 	{
-          "question": "Um sistema solar que está ligado à rede elétrica e utiliza baterias é um sistema:",
-          "options": ["On-grid", "Off-grid", "Híbrido", "Isolado"],
-          "correctIndex": 2
-        },
+         "question": "Um sistema solar que está ligado à rede elétrica e utiliza baterias é um sistema:",
+         "options": ["On-grid", "Off-grid", "Híbrido", "Isolado"],
+         "correctIndex": 2
+       },
 	{
 	  "image": "content/aula_5_fig_1.webp",
-          "question": "Observa o esquema de um módulo fotovoltaico com as suas diferentes camadas numeradas.
-
-Qual das opções identifica corretamente o material e a função da camada n.º 3?",
-          "options": ["Encapsulante EVA — protege e fixa as células fotovoltaicas, garantindo isolamento elétrico.", "Backsheet — fornece rigidez mecânica e protege o painel de impactos.", "Vidro temperado — evita a reflexão da luz e impede a oxidação das células.", "Moldura de alumínio — garante a condução elétrica entre as células."],
-          "correctIndex": 0
-        },
+    "question": "Observa o esquema de um módulo fotovoltaico com as suas diferentes camadas numeradas.\n Qual das opções identifica corretamente o material e a função da camada n.º 3?",
+         "options": ["Encapsulante EVA — protege e fixa as células fotovoltaicas, garantindo isolamento elétrico.", "Backsheet — fornece rigidez mecânica e protege o painel de impactos.", "Vidro temperado — evita a reflexão da luz e impede a oxidação das células.", "Moldura de alumínio — garante a condução elétrica entre as células."],
+         "correctIndex": 0
+       },
 	{
-          "question": "Os sistemas off-grid necessitam sempre de ligação à rede elétrica para funcionar.",
-          "options": ["Verdadeiro", "Falso"],
-          "correctIndex": 1
-        },
+         "question": "Os sistemas off-grid necessitam sempre de ligação à rede elétrica para funcionar.",
+         "options": ["Verdadeiro", "Falso"],
+         "correctIndex": 1
+       },
 	{
-          "question": "Qual das seguintes tecnologias permite armazenar o excedente de energia solar?",
-          "options": ["Inversor solar", "Baterias de iões de lítio", "Controlador de carga", "Painéis adicionais"],
-          "correctIndex": 1
-        },
+         "question": "Qual das seguintes tecnologias permite armazenar o excedente de energia solar?",
+         "options": ["Inversor solar", "Baterias de iões de lítio", "Controlador de carga", "Painéis adicionais"],
+         "correctIndex": 1
+       },
 	{
-          "question": "O armazenamento térmico converte eletricidade em calor para ser utilizado mais tarde.",
-          "options": ["Verdadeiro", "Falso"],
-          "correctIndex": 0
-        },
+         "question": "O armazenamento térmico converte eletricidade em calor para ser utilizado mais tarde.",
+         "options": ["Verdadeiro", "Falso"],
+         "correctIndex": 0
+      },
 	{
 	  "image": "content/aula_5_fig_2.webp",
-          "question": "Analisa o gráfico que mostra a produção solar e o consumo elétrico ao longo de um dia.
-
-Em que período o excedente solar é máximo, e qual a implicação para o sistema elétrico?",
-          "options": ["Entre as 00h e as 06h — o consumo é mínimo e há excesso de energia solar.", "Entre as 09h e as 15h — a produção solar ultrapassa o consumo, podendo originar vertimento de energia.", "Entre as 18h e as 21h — a produção solar é elevada e coincide com o pico de consumo.", "O excedente é constante durante todo o dia."],
-          "correctIndex": 1
-        },
+         "question": "Analisa o gráfico que mostra a produção solar e o consumo elétrico ao longo de um dia.\n Em que período o excedente solar é máximo, e qual a implicação para o sistema elétrico?",
+         "options": ["Entre as 00h e as 06h — o consumo é mínimo e há excesso de energia solar.", "Entre as 09h e as 15h — a produção solar ultrapassa o consumo, podendo originar vertimento de energia.", "Entre as 18h e as 21h — a produção solar é elevada e coincide com o pico de consumo.", "O excedente é constante durante todo o dia."],
+         "correctIndex": 1
+       },
 	{
-          "question": "Qual é o principal desafio associado à energia solar fotovoltaica?",
-          "options": ["O elevado custo de instalação dos painéis.", "A inconsistencia na produção e variação ao longo do dia.", "O uso excessivo de combustíveis fósseis no processo.", "A impossibilidade de armazenar energia solar."],
-          "correctIndex": 1
-        },
+         "question": "Qual é o principal desafio associado à energia solar fotovoltaica?",
+         "options": ["O elevado custo de instalação dos painéis.", "A inconsistencia na produção e variação ao longo do dia.", "O uso excessivo de combustíveis fósseis no processo.", "A impossibilidade de armazenar energia solar."],
+         "correctIndex": 1
+       },
 	{
-          "question": "Quando a produção solar é insuficiente, a energia necessária é obtida…",
-          "options": ["Da rede elétrica pública ou de baterias.", "A partir do calor dos painéis.", "Do inversor solar.", "Diretamente do painel, sem regulação."],
-          "correctIndex": 0
-        },
+         "question": "Quando a produção solar é insuficiente, a energia necessária é obtida…",
+         "options": ["Da rede elétrica pública ou de baterias.", "A partir do calor dos painéis.", "Do inversor solar.", "Diretamente do painel, sem regulação."],
+         "correctIndex": 0
+       },
 	{
-          "question": "A utilização de sistemas de armazenamento contribui para maior estabilidade na rede elétrica.",
-          "options": ["Verdadeiro", "Falso"],
-          "correctIndex": 0
-        }
+         "question": "A utilização de sistemas de armazenamento contribui para maior estabilidade na rede elétrica.",
+         "options": ["Verdadeiro", "Falso"],
+         "correctIndex": 0
+       }
 	]
 	}
 	]
-  }
+ },
+
+ {
+    "id": "aula-6",
+    "title": "Introdução ao Armazenamento de Energia",
+
+    "content": [
+      {
+        "type": "video",
+        "src": "content/aula_5.mp4"
+     }
+    ]
+  },
+
+{
+    "id": "aula-7",
+    "title": "Tecnologias de Baterias",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "O armazenamento eletroquímico, através de baterias, é atualmente uma das soluções mais versáteis e eficazes para integrar energia renovável nos sistemas elétricos modernos.\n A capacidade de armazenar eletricidade de forma rápida, modular e escalável faz das baterias um elemento central da transição energética, tanto em aplicações residenciais e industriais, como no suporte à estabilidade da rede.\n Existem diversas tecnologias de baterias, cada uma com características técnicas e económicas próprias, que determinam a sua adequação a diferentes contextos.\n Entre as mais relevantes destacam-se as baterias de chumbo-ácido, as baterias de iões de lítio, as baterias de fluxo redox e as baterias de estado sólido.\n \n Baterias de chumbo-ácido\n As baterias de chumbo-ácido foram as primeiras a ser amplamente utilizadas no armazenamento elétrico.\n Baseiam-se na reação entre o chumbo e o ácido sulfúrico, e são conhecidas pela sua fiabilidade e baixo custo inicial.\n São, contudo, pesadas, têm menor densidade energética e ciclos de vida mais curtos, o que limita a sua utilização em sistemas de larga escala ou com necessidade de carga e descarga frequente.\n Permanecem, ainda assim, comuns em sistemas de apoio, como UPS (Uninterruptible Power Supply), ou em instalações pequenas de autoconsumo fotovoltaico.\n \n Baterias de iões de lítio\n As baterias de iões de lítio tornaram-se o padrão dominante no armazenamento moderno, impulsionadas pelo desenvolvimento do setor automóvel e eletrónico.\n Apresentam alta densidade energética, eficiência superior a 90% e longa durabilidade, podendo suportar milhares de ciclos de carga e descarga.\n São também compactas e de resposta rápida, ideais para equilibrar flutuações de curta duração na produção renovável.\n Os seus principais desafios estão no custo dos materiais, na segurança térmica (risco de sobreaquecimento) e na gestão ambiental do lítio, níquel e cobalto.\n Apesar disso, a rápida evolução tecnológica e a reciclagem de componentes estão a reduzir significativamente o seu impacto ambiental e o preço por quilowatt-hora armazenado.\n \n Baterias de fluxo redox\n As baterias de fluxo utilizam eletrólitos líquidos que circulam entre tanques separados, permitindo armazenar energia em grande escala.\n A sua principal vantagem é a flexibilidade de dimensionamento — a potência depende das células eletroquímicas, e a capacidade de energia depende do volume dos tanques.\n São particularmente adequadas para armazenamento estacionário de longa duração, como o apoio a parques solares ou eólicos.\n O custo inicial ainda é elevado, mas a sua vida útil excecional e a segurança operacional tornam-nas promissoras para redes inteligentes.\n \n Baterias de estado sólido\n Consideradas a próxima geração de armazenamento, as baterias de estado sólido substituem o eletrólito líquido por um material sólido, aumentando a densidade energética e a segurança.\n Embora ainda em fase de desenvolvimento industrial, prometem maior estabilidade térmica, tempos de carga reduzidos e menor risco de fuga de eletrólitos.\n O seu avanço poderá revolucionar tanto a mobilidade elétrica como o armazenamento doméstico."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_6_fig_1.webp",
+        "caption": "Figura 1 - Comparação de Tecnologias de Baterias"
+      }
+    ]
+  },
+
+{
+    "id": "aula-8",
+    "title": "Papel do Armazenamento no Equilíbrio da Rede e Riscos do Desperdício Energético",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "O equilíbrio entre a produção e o consumo de eletricidade é um dos pilares do funcionamento dos sistemas elétricos.\n Ao contrário de outros bens, a energia elétrica não pode ser acumulada diretamente em grande escala, tem de ser consumida no mesmo instante em que é gerada.\n Este princípio, conhecido como balanço instantâneo da rede, torna o armazenamento um elemento essencial para garantir estabilidade, eficiência e segurança no fornecimento.\n Nos sistemas tradicionais baseados em combustíveis fósseis, o controlo da produção era relativamente simples: as centrais térmicas ajustavam a potência conforme a procura, aumentando ou reduzindo a queima de combustível.\n No entanto, com a integração crescente de fontes renováveis intermitentes, como o sol e o vento, o controlo direto da produção tornou-se muito mais complexo.\n A produção renovável depende de condições naturais variáveis e, por isso, nem sempre coincide com os momentos de maior procura.\n \n Durante as horas de elevada radiação solar, por exemplo, a rede pode receber um volume de energia superior ao necessário, provocando um excesso de geração.\n Sem capacidade de armazenamento suficiente, o operador é obrigado a reduzir a injeção de energia fotovoltaica ou eólica, um processo conhecido como curtailment, resultando em desperdício energético e perdas económicas.\n Por outro lado, ao final do dia, quando o consumo atinge o seu pico e a produção solar desaparece, a rede necessita de energia de reserva proveniente de centrais térmicas, importações ou armazenamento prévio.\n \n O armazenamento de energia surge, assim, como um regulador natural do sistema elétrico.\n Durante os períodos de excedente, a energia é captada e armazenada; nas horas de défice, é libertada de forma controlada para estabilizar a frequência e a tensão da rede.\n Este processo é fundamental não só para reduzir desperdício, mas também para evitar instabilidades e apagões que poderiam comprometer a segurança do sistema."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_7_fig_1.webp",
+        "caption": "Figura 1 – Equilíbrio da Rede: Excedente e Défice de Energia"
+      },
+	{
+       "type": "text",
+       "body": "Além da função técnica, o armazenamento desempenha também um papel económico estratégico.\n Nos mercados grossistas, como o OMIE, o preço da eletricidade varia hora a hora em função do equilíbrio entre oferta e procura.\n O armazenamento permite comprar energia quando é barata (em horas de excesso renovável) e vender ou usar quando é mais cara (em horas de maior procura), promovendo eficiência económica e energética.\n \n A Figura 2 ilustra este comportamento, mostrando o impacto direto do armazenamento na redução dos picos de preço e na melhoria do aproveitamento da energia solar."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_7_fig_2.webp",
+       "caption": "Figura 2 – Impacto do Armazenamento na Estabilidade de Preços e na Eficiência Energética"
+     },
+	{
+        "type": "text",
+        "body": "Do ponto de vista ambiental, o armazenamento é igualmente decisivo: cada megawatt-hora armazenado e reutilizado representa menos emissões, menos necessidade de centrais de reserva e maior aproveitamento da energia renovável disponível.\n Combinado com sistemas de controlo inteligentes, sensores e algoritmos de previsão, o armazenamento permite criar redes elétricas mais flexíveis, resilientes e sustentáveis.\n No futuro próximo, será impensável um sistema elétrico renovável sem uma infraestrutura robusta de armazenamento.\n As redes do futuro, as chamadas smart grids, dependerão de sistemas distribuídos de baterias, centrais de bombagem reversível e soluções inovadoras de hidrogénio verde para garantir o equilíbrio em tempo real.\n \n Em suma, o armazenamento não é apenas uma ferramenta técnica: é o elo que transforma a energia intermitente em energia contínua, o fator que liga a sustentabilidade à estabilidade e o instrumento que permite aproveitar todo o potencial das renováveis sem comprometer a segurança do sistema elétrico."
+      }
+    ]
+  },
+
+{
+    "id": "aula-9",
+    "title": "Momento Avaliação 2: Armazenamento de Energia",
+
+    "content": [
+     {
+       "type": "quiz",
+       "questions": [
+	{
+          "question": "O que significa o termo intermitência no contexto das energias renováveis?",
+          "options": ["O aumento constante da produção de energia ao longo do dia.", "A interrupção da rede elétrica por falhas técnicas.", "O facto de a produção nem sempre ocorrer quando há procura", "A variação imprevisível da procura de energia."],
+          "correctIndex": 2
+        },
+	{
+          "question": "Qual é o principal motivo para o chamado “efeito Curva do Pato”?",
+          "options": ["O aumento do consumo durante a noite.", "O consumo reduzido nas horas de ponta.", "O excesso de produção solar durante o dia e a falta à noite.", "A variação dos preços do gás natural."],
+          "correctIndex": 2
+        },
+	{
+         "question": "O que representa o mismatch energético?",
+         "options": ["O desperdício de energia por falhas técnicas.", "A diferença entre a energia gerada e a energia consumida num determinado momento.", "O desequilíbrio entre fontes fósseis e renováveis.", "A variação dos preços da eletricidade ao longo do dia."],
+         "correctIndex": 1
+       },
+	{
+         "question": "Qual destas tecnologias não é uma forma de armazenamento de energia?",
+         "options": ["Hidrogénio verde.", "Baterias de iões de lítio.", "Centrais térmicas a carvão.", "Bombagem hidroelétrica."],
+         "correctIndex": 2
+       },
+	{
+         "question": "Porque é que o armazenamento de energia é essencial para o futuro das redes elétricas?",
+         "options": ["Porque aumenta o consumo de combustíveis fósseis.", "Porque estabiliza o sistema e reduz desperdício energético.", "Porque elimina a necessidade de produção renovável.", "Porque reduz o preço das licenças de CO₂."],
+         "correctIndex": 1
+       },
+	{
+         "question": "O que acontece quando há excesso de produção solar e baixa procura de eletricidade durante o dia?",
+         "options": ["O operador do sistema pode ter de reduzir a produção ou exportar energia a preços negativos.", "A rede elétrica armazena automaticamente toda a energia produzida.", "O consumo doméstico aumenta para equilibrar a produção.", "As centrais térmicas são acionadas para compensar a energia solar."],
+         "correctIndex": 0
+       },
+	{
+         "question": "Qual das seguintes afirmações descreve melhor o papel do armazenamento de energia nos sistemas elétricos modernos?",
+         "options": ["Serve apenas para reduzir o preço da eletricidade.", "Permite guardar energia excedente e utilizá-la quando há procura.", "Substitui completamente as centrais de produção.", "Aumenta a dependência de fontes fósseis."],
+         "correctIndex": 1
+       }
+	]
+	}
+	]
+  },
+
+{
+    "id": "aula-10",
+    "title": "O que é o OMIE e como ele opera",
+
+    "content": [
+      {
+        "type": "video",
+        "src": "content/aula_10.mp4"
+      }
+    ]
+  },
+
+{
+    "id": "aula-11",
+    "title": "Formação de Preços da Energia no Mercado Diário e Intradiário",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "O preço da eletricidade no mercado ibérico (OMIE) varia constantemente, refletindo as dinâmicas entre a oferta e a procura ao longo do dia. Estas flutuações não resultam apenas do mecanismo do mercado, mas também de fatores naturais, técnicos e de consumo que influenciam o equilíbrio energético em cada momento.\n Durante o dia, a produção de energia solar aumenta de forma significativa, sobretudo entre o final da manhã e o início da tarde. Essa maior oferta faz com que o preço da eletricidade desça nas horas de maior irradiação solar. À medida que o sol se põe e a produção solar diminui, a procura tende a subir, é o momento em que mais pessoas regressam a casa e o consumo doméstico aumenta. Como consequência, o preço da eletricidade volta a subir ao final do dia, dando origem ao chamado “efeito curva do pato” (Figura 1), um fenómeno característico em sistemas com grande presença de energias renováveis.\n Além da variação diária, os preços também sofrem influência de fatores externos. Condições meteorológicas, disponibilidade hídrica, ventos fortes ou fracos, e até o preço do gás natural e das licenças de CO₂ afetam o custo de produção das diferentes fontes de energia. Quando há menos vento ou menos sol, é necessário recorrer a centrais térmicas ou a importação de energia, que normalmente têm custos mais elevados. Por outro lado, períodos de elevada produção renovável reduzem a dependência dessas fontes, baixando os preços no mercado.\n Outro aspeto relevante é o comportamento da procura. Em dias muito frios ou muito quentes, o aumento do uso de aquecimento ou ar condicionado gera picos de consumo que pressionam o preço. Também os padrões de atividade industrial e comercial, ou eventos sazonais como feriados e fins de semana, criam variações previsíveis nos perfis de consumo."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_11_fig_1.webp",
+        "caption": "Figura 1 - Representação da “curva do pato”: relação entre produção solar e variação do preço ao longo do dia, no verão."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_11_fig_2.webp",
+        "caption": "Figura 2 - Relação entre produção solar e variação do preço ao longo do dia, no inverno."
+      },
+	{
+       "type": "text",
+       "body": "De forma prática, observar o gráfico horário de preços do OMIE permite compreender estas dinâmicas. As horas mais baratas costumam situar-se no período de maior produção renovável, enquanto os preços mais altos coincidem com os momentos de maior procura e menor geração solar. Este tipo de leitura é essencial para interpretar o comportamento do mercado e planear estratégias de consumo ou armazenamento que aproveitem os períodos de energia mais económica e limpa.\n Estas variações podem ser observadas também nos resultados dos leilões diários do OMIE, onde a interseção entre a oferta e a procura determina o preço final da eletricidade para cada hora. A curva agregada de equilíbrio (Figura 3) representa graficamente esse ponto de cruzamento, fixando o preço marginal de mercado — o valor a que toda a energia é transacionada nessa hora.\n De forma complementar, os resultados dos leilões (Figura 4) evidenciam a aplicação prática deste princípio. No exemplo apresentado, referente a um leilão de energia renovável realizado em janeiro de 2021, foram adjudicados diversos projetos de tecnologia fotovoltaica e eólica terrestre. Cada linha da tabela corresponde a um produtor que venceu uma parcela do leilão, indicando a potência atribuída (em kW) e o preço de adjudicação (em €/MWh) pelo qual se comprometeu a fornecer eletricidade.\n Assim, tanto a curva de oferta e procura como os resultados do leilão ilustram o mesmo mecanismo fundamental do mercado elétrico: o cruzamento entre oferta e procura, que define simultaneamente o preço marginal e o volume de energia adjudicado. Este processo garante uma alocação eficiente dos recursos e promove a competitividade no setor das energias renováveis."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_11_fig_3.webp",
+       "caption": "Figura 3 - Curva de interseção oferta/procura."
+     },
+	{
+       "type": "image",
+       "src": "content/aula_11_fig_4.webp",
+       "caption": "Figura 4 - Excerto real do resultado de um leilão OMIE."
+     },
+	{
+        "type": "text",
+        "body": "Ao compreender estas relações, torna-se possível não apenas interpretar os preços, mas também antecipar tendências. Para consumidores, isto significa saber quando é mais vantajoso utilizar equipamentos de maior consumo ou carregar sistemas de armazenamento. Para produtores e operadores de rede, compreender estas variações ajuda a otimizar a injeção de energia e a garantir maior estabilidade do sistema elétrico.\n No contexto da transição energética, esta análise assume um papel fundamental: quanto melhor for o aproveitamento das horas de energia renovável, menor será a dependência de fontes fósseis e mais eficiente se tornará o mercado. Assim, entender as dinâmicas de oferta e procura não é apenas uma questão económica, é também uma ferramenta essencial para promover um sistema energético mais sustentável e equilibrado."
+      }
+    ]
+  },
+
+{
+    "id": "aula-12",
+    "title": "Estudo de Caso: O Apagão Ibérico e o Impacto no Mercado",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "No dia 28 de abril de 2025, às 12h33 (CEST), a maior parte da península ibérica, envolvendo Portugal continental e Espanha peninsular, ficou sem eletricidade em simultâneo.\n Em questão de segundos, cerca de 15,000 megawatts de geração elétrica foram perdidos em Espanha, o equivalente a aproximadamente 60% do consumo naquele momento, segundo o governo espanhol.\n Imediatamente, redes de metro ficaram paralisadas, sinais de trânsito apagados nas grandes cidades, internet e comunicações afetadas, terminais de aeroporto e comboios atrasados, milhares de pessoas presas em elevadores ou obrigadas a abandonar estações.\n As autoridades de Portugal e Espanha iniciaram imediatamente procedimentos de controlo de crise e investigação. A recuperação avançou ao longo da noite, mas o incidente deixou claro que o sistema elétrico ibérico enfrentou uma falha sem precedentes.\n \n Várias fontes jornalisticas - AP News, Euronews\n \n O gráfico seguinte mostra a variação horária dos preços da eletricidade em Portugal e Espanha no dia 28 de abril de 2025, durante o apagão."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_12_fig_1.webp",
+        "caption": "Figura 1 - Mercado energético no dia 28/04/2025"
+      },
+	{
+       "type": "text",
+       "body": "Observa-se uma forte instabilidade ao longo do dia, com valores negativos nas horas de maior produção fotovoltaica e picos acentuados durante a noite, quando a rede foi restabelecida e a procura aumentou rapidamente. As ligeiras diferenças entre os dois mercados refletem variações locais na oferta e procura, mas o comportamento geral manteve-se bastante semelhante nos dois países.\n \n Contexto Técnico\n Durante o apagão, a perda súbita de produção criou um desequilíbrio entre oferta e procura de energia.\n Para estabilizar a frequência da rede elétrica, os operadores (REE e REN) precisaram isolar zonas e desligar centrais, o que interrompeu temporariamente o acoplamento entre Portugal e Espanha.\n Este tipo de evento tem impacto direto no mercado OMIE, já que o preço resulta do equilíbrio entre produção e consumo. Quando há instabilidade, o mercado responde com variações extremas de preço, refletindo a escassez (picos) ou o excesso (valores negativos) de energia disponível.\n \n O apagão evidenciou a importância do armazenamento energético e dos mecanismos de flexibilidade.\n Com uma elevada penetração de energia solar, o sistema torna-se mais sensível a perturbações. Se existissem baterias de grande capacidade ou estratégias inteligentes de gestão da rede, parte deste impacto poderia ter sido mitigado.\n Este caso real demonstra como a integração de renováveis e armazenamento é fundamental para garantir segurança, estabilidade e eficiência económica no mercado ibérico."
+     }
+    ]
+  },
+
+{
+    "id": "aula-13",
+    "title": "Conceito de Monitorização Inteligente",
+
+    "content": [
+      {
+        "type": "video",
+        "src": "content/aula_13.mp4"
+      }
+    ]
+  },
+
+{
+    "id": "aula-14",
+    "title": "Algoritmos de Previsão Energética",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "A gestão inteligente de energia baseia-se cada vez mais na utilização de dados e algoritmos que permitem otimizar o funcionamento de sistemas fotovoltaicos com armazenamento. Nesta lição, vamos compreender como funcionam os modelos de previsão que tornam possível adaptar automaticamente o consumo e o armazenamento de energia às condições do mercado e da produção solar.\n A previsão energética consiste em estimar, com base em dados históricos e em tempo real, o comportamento futuro de variáveis como a produção solar, o consumo elétrico e o preço da eletricidade no mercado ibérico OMIE. Através destas previsões, os sistemas podem antecipar períodos de alta produção ou preços baixos e ajustar o uso da bateria para maximizar a eficiência e reduzir custos.\n Para que as previsões sejam fiáveis, os algoritmos precisam de aceder a diferentes fontes de dados, que incluem dados meteorológicos (radiação solar, temperatura e nebulosidade), dados de consumo (padrões horários e semanais), dados de mercado (preços horários do OMIE e volume de energia comercializada) e dados técnicos do próprio sistema (estado de carga da bateria e potência disponível). A qualidade e frequência desses dados determinam a precisão dos resultados.\n \n Os modelos de previsão podem ser divididos em dois grandes grupos. Os primeiros são os modelos estatísticos clássicos, como a regressão linear ou os modelos ARIMA, que utilizam tendências passadas para projetar o comportamento futuro. Estes modelos são rápidos e simples de interpretar, mas menos eficazes quando as variáveis são muito voláteis.\n Os segundos são os modelos baseados em Inteligência Artificial, como as redes neuronais ou os algoritmos de machine learning, que aprendem padrões complexos e se adaptam a novas condições. Embora exijam maior capacidade de processamento e mais dados, tendem a oferecer previsões mais robustas e ajustadas à realidade."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_14_fig_1.webp",
+        "caption": "Figura 1 - Diferentes algoritmos de previsão energética."
+      },
+	{
+       "type": "text",
+       "body": "Na prática, muitos sistemas combinam estas duas abordagens. Utilizam métodos estatísticos para previsões de curto prazo, onde as variáveis são mais previsíveis, e modelos de IA para projeções de longo prazo e decisões mais dinâmicas.\n Em alguns casos, combina-se mais do que um modelo de previsão através de técnicas de ensemble, que juntam os resultados de diferentes algoritmos para obter previsões mais estáveis e precisas.\n Métodos como voting, stacking ou weighted averaging permitem equilibrar as vantagens de vários modelos, reduzindo os erros que um modelo isolado poderia gerar.\n \n Outro aspeto importante é o horizonte temporal da previsão (forecasting horizon). Existem previsões de curto prazo, úteis para ajustar o carregamento e descarregamento de baterias em tempo real, e de médio e longo prazo, que apoiam a gestão de energia e planeamento estratégico.\n Cada horizonte exige diferentes abordagens: modelos simples podem ser suficientes para algumas horas de antecedência, mas previsões de dias ou semanas requerem algoritmos mais complexos e dados meteorológicos fiáveis.\n \n Podemos então definir um fluxograma para o processo de seleção do modelo de previsão energética:"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_14_fig_2.webp",
+       "caption": "Figura 2 - Fluxograma da previsão energética."
+     },
+	{
+        "type": "text",
+        "body": "Em suma, a previsão energética é o ponto de partida para a gestão inteligente de sistemas fotovoltaicos com armazenamento. Ao integrar várias informações como dados meteorológicos, de consumo e de mercado, os modelos de previsão permitem antecipar cenários e apoiar decisões automáticas que aumentam a eficiência e reduzem custos. Mais do que prever, estes algoritmos possibilitam uma operação proativa, onde o sistema aprende com padrões passados, adapta-se em tempo real e contribui para uma rede elétrica mais estável, sustentável e economicamente otimizada."
+      }
+    ]
+  },
+
+{
+    "id": "aula-15",
+    "title": "Estratégias de Carregamento e Descarregamento com Base no Mercado Energético",
+
+    "content": [
+      {
+        "type": "text",
+        "body": "Depois de compreender como funcionam os modelos de previsão, nesta lição vamos aplicar esses conceitos na prática, analisando as estratégias que permitem definir quando e como carregar ou descarregar um sistema de armazenamento de energia em função das condições do mercado elétrico.\n \n A operação eficiente de uma bateria depende não apenas da sua capacidade técnica, mas também da capacidade de responder de forma inteligente aos sinais de preço e produção. No mercado ibérico de energia, onde o preço da eletricidade varia de hora a hora, a escolha do momento certo para armazenar ou vender energia é determinante para o retorno económico e energético do sistema.\n O objetivo central das estratégias de carregamento e descarregamento é maximizar o benefício económico e minimizar as perdas.\n \n De forma simples:\n Carregar a bateria quando o preço da eletricidade é baixo (ou quando há excesso de produção solar);\n Descarregar quando o preço é alto ou a procura é elevada.\n \n As estratégias podem ser classificadas em três grandes categorias:\n \n Estratégias Fixas (ou Regras Determinísticas)\n \n São as mais simples. Baseiam-se em regras pré-definidas, por exemplo:\n “Carregar quando o preço estiver abaixo de 60 €/MWh e descarregar acima de 100 €/MWh.”\n Estas estratégias são fáceis de implementar, mas não se adaptam a variações inesperadas, como mudanças súbitas no preço ou na produção solar.\n São adequadas para sistemas pequenos ou residenciais com perfis de consumo estáveis."
+      },
+	{
+        "type": "image",
+        "src": "content/aula_15_fig_1.webp",
+        "caption": "Fgura 1 - Estratégia fixa de carregamento e descarregamento de baterias."
+      },
+	{
+       "type": "text",
+       "body": "Estratégias Dinâmicas (ou Adaptativas)\n \n Utilizam previsões de preços, consumo e produção solar para ajustar automaticamente os limiares de decisão.\n Por exemplo, o sistema pode decidir carregar parcialmente a bateria se antever um preço ainda mais baixo nas horas seguintes.\n Estas estratégias utilizam algoritmos de otimização em tempo real, que avaliam múltiplos cenários antes de decidir.\n São ideais para contextos onde os preços do mercado e as condições meteorológicas variam de forma significativa.\n \n Estratégias Multiobjetivo\n \n Aqui, a decisão não depende apenas do preço, mas de vários objetivos combinados, tais como:\n Minimizar o custo energético;\n Maximizar a vida útil da bateria;\n Reduzir emissões de carbono;\n Aumentar a autossuficiência energética.\n \n O sistema pondera cada critério com um peso específico e decide a melhor ação através de métodos de otimização matemática, como programação linear, otimização multiobjetivo ou algoritmos genéticos.\n Podemos então comparar as estratégias referidas tendo em conta alguns critérios relevantes:"
+     },
+	{
+       "type": "image",
+       "src": "content/aula_15_fig_2.webp",
+       "caption": "Tabela 1 - Comparação das estratégias de carregamento e descarregamento de baterias"
+     },
+	{
+        "type": "text",
+        "body": "Embora o foco principal destas estratégias seja o aspeto económico, é fundamental garantir que a operação da bateria respeite os seus limites técnicos. Cada ciclo de carga e descarga contribui para a degradação do sistema, pelo que deve existir um controlo rigoroso sobre o número de ciclos diários e a profundidade de descarga. Além disso, fatores como a potência máxima instantânea, a eficiência de conversão, que normalmente varia entre 85% e 95%, e a manutenção de um estado de carga mínimo (SOCmin) são essenciais para preservar a segurança e a longevidade do equipamento. Os sistemas mais avançados incorporam automaticamente estes parâmetros nos seus algoritmos de decisão, assegurando um equilíbrio sustentável entre rentabilidade, eficiência e durabilidade operacional."
+      }
+    ]
+  }
+
 ]
