@@ -9,10 +9,10 @@
   <body>
     <div id="header">
       <nav id="navbar">
-        <a href="MOOC.html"><span>PAGE -</span><span>MOOC</span></a>
-        <a href="#projects"><span>SECTION -</span><span>Projects</span></a>
-        <a href="#about-us"><span>SECTION -</span><span>About Us</span></a>
-        <a href="#contact-us"><span>SECTION -</span><span>Contact Us</span></a>
+        <a href="MOOC.html"><div><span>PAGE -</span><span class="nav-underline">MOOC</span></div></a>
+        <a href="HomePage.html#projects"><div><span>SECTION -</span><span class="nav-underline">Projects</span></div></a>
+        <a href="HomePage.html#about-us"><div><span>SECTION -</span><span class="nav-underline">About Us</span></div></a>
+        <a href="HomePage.html#contact-us"><div><span>SECTION -</span><span class="nav-underline">Contact Us</span></div></a>
       </nav>
       <div>
         <p class="title-text">PORTFOLIO</p>
@@ -189,6 +189,84 @@
     <script src="../js/utils.js"></script>
     
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        /* NAVBAR */
+        gsap.from("#navbar a", {
+          opacity: 0,
+          y: -20,
+          duration: 0.8,
+          stagger: 0.15,
+          ease: "power2.out",
+        });
+
+        /* TITLE */
+        gsap.from(".title-text", {
+          opacity: 0,
+          duration: 1.2,
+          ease: "power3.out",
+        });
+
+        /* HEADER IMAGE */
+        gsap.from("#header img", {
+          opacity: 0,
+          duration: 1.2,
+          delay: 0.1,
+          ease: "power3.out",
+        });
+
+        /* SVG PROGRESS BAR */
+        gsap.from(".mask", {
+          xPercent: -100,
+          duration: 1.6,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: "#svg-progress",
+            start: "top 80%",
+          }
+        });
+
+        /* PROJECT PANELS (SCROLL HORIZONTAL) */
+        gsap.from(".panel-link", {
+          opacity: 0,
+          y: 50,
+          duration: 1.2,
+          stagger: 0.25,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".horizontal-wrapper",
+            start: "top 80%",
+          }
+        });
+
+        /* ABOUT CARDS */
+        gsap.from(".card", {
+          opacity: 0,
+          y: 60,
+          duration: 1.2,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".container",
+            start: "top 85%",
+          }
+        });
+
+        /* FAQ */
+        gsap.from(".faq-item", {
+          opacity: 0,
+          y: 40,
+          duration: 1.2,
+          stagger: 0.15,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: "#faq-section",
+            start: "top 85%",
+          }
+        });
+      });
+
       loadProjects().then(projects => {
         const container = document.querySelector('.horizontal-wrapper');
         projects.forEach(p => {
