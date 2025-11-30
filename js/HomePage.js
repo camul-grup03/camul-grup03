@@ -1,8 +1,8 @@
 function initHorizontalScroll() {
-  //if (window.innerWidth <= 800) {
-  //  document.querySelector(".horizontal-wrapper").style.transform = "none";
-  //  return;
-  //}
+  if (window.innerWidth <= 800) {
+   document.querySelector(".horizontal-wrapper").style.transform = "none";
+   return;
+  }
 
   gsap.registerPlugin(ScrollTrigger);
 
