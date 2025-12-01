@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta name="description" content="Explore a multimedia web platform showcasing student projects, MOOC learning resources, and creative work in a modern and responsive format.">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,14 +10,15 @@
   <body>
     <div id="header">
       <nav id="navbar">
-        <a href="MOOC.html"><span>PAGE -</span><span>MOOC</span></a>
-        <a href="#projects"><span>SECTION -</span><span>Projects</span></a>
-        <a href="#about-us"><span>SECTION -</span><span>About Us</span></a>
-        <a href="#contact-us"><span>SECTION -</span><span>Contact Us</span></a>
+        <a href="MOOC.html" aria-label="Go to the MOOC page"><div><span>PAGE -</span><span class="nav-underline">MOOC</span></div></a>
+        <a href="HomePage.html#projects"><div><span>SECTION -</span><span class="nav-underline">Projects</span></div></a>
+        <a href="HomePage.html#about-us" aria-label="Learn about the team"><div><span>SECTION -</span><span class="nav-underline">About Us</span></div></a>
+        <a href="HomePage.html#contact-us" aria-label="Reach out to us!"><div><span>SECTION -</span><span class="nav-underline">Contact Us</span></div></a>
       </nav>
       <div>
         <p class="title-text">PORTFOLIO</p>
         <img
+          fetchpriority=high
           src="../img/pexels-pixabay-356036.webp"
           alt="A photo of clear skies and arrays of solar panels."
         />
@@ -66,7 +68,7 @@
           <div class="shape s2"></div>
           <div class="shape s3"></div>
           <div class="shape s4"></div>
-          <img src="../img/GV_Photo.jpeg" alt="" />
+          <img src="../img/GV_Photo.webp" alt="An image of Gaspar Vieira" />
           <div class="addInfo">
             <p>
               Software Developer, currently taking a Master's Degree at ISEP
@@ -75,10 +77,10 @@
           </div>
           <div class="contacts">
             <a href=mailto:"gaspar.antunesvieira@gmail.com">
-              <img src="../svg/email.svg" alt="" />
+              <img src="../svg/email.svg" alt="Email link for Gaspar Vieira" />
             </a>
             <a href="https://www.linkedin.com/in/gaspar-antunes-vieira-525a82298" target="_blank">
-              <img src="../svg/linkedin.svg" alt="" />
+              <img src="../svg/linkedin.svg" alt="LinkedIn Profile of Gaspar Vieira" />
             </a>
           </div>
         </section>
@@ -87,7 +89,7 @@
           <div class="shape s2"></div>
           <div class="shape s3"></div>
           <div class="shape s4"></div>
-          <img src="../img/DB_Photo.jpeg" alt="" />
+          <img src="../img/DB_Photo.webp" alt="An image of Daniel Braga" />
           <div class="addInfo">
             <p>
               Software Developer, currently taking a Master's Degree at ISEP
@@ -96,7 +98,7 @@
           </div>
           <div class="contacts">
             <a href=mailto:"1200801@isep.ipp.pt">
-              <img src="../svg/email.svg" alt="" />
+              <img src="../svg/email.svg" alt="Email link for Daniel Braga" />
             </a>
           </div>
         </section>
@@ -105,7 +107,7 @@
           <div class="shape s2"></div>
           <div class="shape s3"></div>
           <div class="shape s4"></div>
-          <img src="../img/GM_Photo.jpeg" alt="" />
+          <img src="../img/GM_Photo.webp" alt="An image of Gonçalo Mochão" />
           <div class="addInfo">
             <p>
               Software Developer, currently taking a Master's Degree at ISEP
@@ -114,7 +116,7 @@
           </div>
           <div class="contacts">
             <a href=mailto:"1211332@isep.ipp.pt">
-              <img src="../svg/email.svg" alt="" />
+              <img src="../svg/email.svg" alt="Email link for Gonçalo Mochão" />
             </a>
           </div>
         </section>
@@ -133,16 +135,16 @@
         <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="0ba58831-4f35-47bc-8335-0a8c271b5e9c" />
 
-          <label>Name</label>
+          <label for="name">Name</label>
           <input type="text" name="name" required />
 
-          <label>Email</label>
+          <label for="email">Email</label>
           <input type="email" name="email" required />
 
-          <label>Topic</label>
+          <label for="topic">Topic</label>
           <input type="text" name="topic" required />
 
-          <label>Message</label>
+          <label for="message">Message</label>
           <textarea name="message" rows="4" required></textarea>
 
           <button type="submit">Send Message</button>
@@ -184,11 +186,90 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sienna-accessibility@latest/dist/sienna-accessibility.umd.js" defer></script>
     <script src="../js/HomePage.js"></script>
 
     <script src="../js/utils.js"></script>
     
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        /* NAVBAR */
+        gsap.from("#navbar a", {
+          opacity: 0,
+          y: -20,
+          duration: 0.8,
+          stagger: 0.15,
+          ease: "power2.out",
+        });
+
+        /* TITLE */
+        gsap.from(".title-text", {
+          opacity: 0,
+          duration: 1.2,
+          ease: "power3.out",
+        });
+
+        /* HEADER IMAGE */
+        gsap.from("#header img", {
+          opacity: 0,
+          duration: 1.2,
+          delay: 0.1,
+          ease: "power3.out",
+        });
+
+        /* SVG PROGRESS BAR */
+        gsap.from(".mask", {
+          xPercent: -100,
+          duration: 1.6,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: "#svg-progress",
+            start: "top 80%",
+          }
+        });
+
+        /* PROJECT PANELS (SCROLL HORIZONTAL) */
+        gsap.from(".panel-link", {
+          opacity: 0,
+          y: 50,
+          duration: 1.2,
+          stagger: 0.25,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".horizontal-wrapper",
+            start: "top 80%",
+          }
+        });
+
+        /* ABOUT CARDS */
+        gsap.from(".card", {
+          opacity: 0,
+          y: 60,
+          duration: 1.2,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".container",
+            start: "top 85%",
+          }
+        });
+
+        /* FAQ */
+        gsap.from(".faq-item", {
+          opacity: 0,
+          y: 40,
+          duration: 1.2,
+          stagger: 0.15,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: "#faq-section",
+            start: "top 85%",
+          }
+        });
+      });
+
       loadProjects().then(projects => {
         const container = document.querySelector('.horizontal-wrapper');
         projects.forEach(p => {
@@ -199,7 +280,7 @@
             <section className="panel">
               <img
               src="${p.hero}"
-              alt="${p.title}d"
+              alt="An image about the ${p.title} project"
               />
               <p>${p.subtitle}</p>
               <h1>${p.title}</h1>

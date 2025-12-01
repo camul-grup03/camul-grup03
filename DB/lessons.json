@@ -1,8 +1,9 @@
 [
   {
     "id": "aula-1",
+    "module": "Energia Solar Fotovoltaica: Fundamentos e Aplicações",
     "title": "Introdução às Energias Renováveis e o Papel da Energia Solar",
-
+    
     "content": [
       {
         "type": "video",
@@ -15,6 +16,7 @@
 
 {
     "id": "aula-2",
+    "module": "Energia Solar Fotovoltaica: Fundamentos e Aplicações",
     "title": "Princípios de Funcionamento dos Paineis Fotovoltaicos",
 
     "content": [
@@ -54,6 +56,7 @@
 
 {
    "id": "aula-3",
+   "module": "Energia Solar Fotovoltaica: Fundamentos e Aplicações",
    "title": "Tipos de Sistemas Fotovoltaicos",
 
    "content": [
@@ -110,6 +113,7 @@
 
 {
    "id": "aula-4",
+   "module": "Energia Solar Fotovoltaica: Fundamentos e Aplicações",
    "title": "Desafios da Energia Solar: Intermitência e Armazenamento",
 
    "content": [
@@ -163,6 +167,7 @@
  },
 {
    "id": "aula-5",
+   "module": "Energia Solar Fotovoltaica: Fundamentos e Aplicações",
    "title": "Momento de Avaliação 1: Energia Solar Fotovoltaica",
 
    "content": [
@@ -233,6 +238,7 @@
 
  {
     "id": "aula-6",
+    "module": "Armazenamento de Energia e Desafios",
     "title": "Introdução ao Armazenamento de Energia",
 
     "content": [
@@ -246,6 +252,7 @@
 
 {
     "id": "aula-7",
+    "module": "Armazenamento de Energia e Desafios",
     "title": "Tecnologias de Baterias",
 
     "content": [
@@ -263,6 +270,7 @@
 
 {
     "id": "aula-8",
+    "module": "Armazenamento de Energia e Desafios",
     "title": "Papel do Armazenamento no Equilíbrio da Rede e Riscos do Desperdício Energético",
 
     "content": [
@@ -293,6 +301,7 @@
 
 {
     "id": "aula-9",
+    "module": "Armazenamento de Energia e Desafios",
     "title": "Momento Avaliação 2: Armazenamento de Energia",
 
     "content": [
@@ -341,6 +350,7 @@
 
 {
     "id": "aula-10",
+    "module": "O Mercado Energético e o OMIE",
     "title": "O que é o OMIE e como ele opera",
 
     "content": [
@@ -354,6 +364,7 @@
 
 {
     "id": "aula-11",
+    "module": "O Mercado Energético e o OMIE",
     "title": "Formação de Preços da Energia no Mercado Diário e Intradiário",
 
     "content": [
@@ -394,6 +405,7 @@
 
 {
     "id": "aula-12",
+    "module": "O Mercado Energético e o OMIE",
     "title": "Estudo de Caso: O Apagão Ibérico e o Impacto no Mercado",
 
     "content": [
@@ -415,6 +427,7 @@
 
 {
     "id": "aula-13",
+    "module": "Monitorização Inteligente e Otimização",
     "title": "Conceito de Monitorização Inteligente",
 
     "content": [
@@ -428,6 +441,7 @@
 
 {
     "id": "aula-14",
+    "module": "Monitorização Inteligente e Otimização",
     "title": "Algoritmos de Previsão Energética",
 
     "content": [
@@ -458,6 +472,7 @@
 
 {
     "id": "aula-15",
+    "module": "Monitorização Inteligente e Otimização",
     "title": "Estratégias de Carregamento e Descarregamento com Base no Mercado Energético",
 
     "content": [

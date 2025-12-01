@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Browse a curated collection of multimedia projects with images, descriptions, and interactive content developed by students.">
     <title>Project</title>
     <link rel="stylesheet" href="../css/project.css" />
   </head>
   <body>
     <!-- Title + Subtitle -->
     <section id="header-block">
-      <div id="back-floating" onclick="history.back()">←</div>
-      <h1 id="project-title">The Purple Color</h1>
-      <p id="project-subtitle">
+      <nav id="navbar">
+        <a href="HomePage.html" aria-label="Go to the Home Page"><span>PAGE -</span><span class="nav-underline">Portfolio</span></a>
+        <a href="HomePage.html#projects" aria-label="View all projects"><span>SECTION -</span><span class="nav-underline">Projects</span></a>
+        <a href="HomePage.html#about-us" aria-label="Learn about the team"><span>SECTION -</span><span class="nav-underline">About Us</span></a>
+        <a href="HomePage.html#contact-us" aria-label="Reach out to us!"><span>SECTION -</span><span class="nav-underline">Contact Us</span></a>
+      </nav>
+      <h1 id="project-title" class="reveal">The Purple Color</h1>
+      <p id="project-subtitle" class="reveal">
         A bit of history of the color purple and its use in multimedia.
       </p>
     </section>
@@ -20,26 +26,26 @@
     <section id="images-block">
       <div class="first-row">
         <!-- Large left hero image -->
-        <div class="image-large image-wrapper ar-16-9">
+        <div class="image-large image-wrapper reveal ar-16-9">
           <img id="hero-img" src="../img/placeholder_large.png" alt="" />
         </div>
 
         <!-- Right grids -->
         <div class="images-grid">
           <div class="image-grid r1_3">
-            <div class="image-wrapper ar-3-4">
+            <div class="image-wrapper reveal ar-3-4">
               <img src="../img/placeholder_small.png" />
             </div>
-            <div class="image-wrapper ar-4-3">
+            <div class="image-wrapper reveal ar-4-3">
               <img src="../img/placeholder_small.png" />
             </div>
           </div>
 
           <div class="image-grid r2_3">
-            <div class="image-wrapper ar-4-3">
+            <div class="image-wrapper reveal ar-4-3">
               <img src="../img/placeholder_small.png" />
             </div>
-            <div class="image-wrapper ar-3-4">
+            <div class="image-wrapper reveal ar-3-4">
               <img src="../img/placeholder_small.png" />
             </div>
           </div>
@@ -47,15 +53,15 @@
       </div>
 
       <div class="image-row">
-        <div class="image-large image-wrapper ar-16-9">
+        <div class="image-large image-wrapper reveal ar-16-9">
           <img src="../img/placeholder_small.png" />
         </div>
-        <div class="image-large image-wrapper ar-16-9">
+        <div class="image-large image-wrapper reveal ar-16-9">
           <img src="../img/placeholder_small.png" />
         </div>
 
         <!-- VIDEO EMBUTIDO AQUI -->
-        <div class="image-large image-wrapper ar-16-9">
+        <div class="image-large image-wrapper reveal ar-16-9">
           <iframe 
             id="project-video"
             src="" 
@@ -86,6 +92,37 @@
       </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sienna-accessibility@latest/dist/sienna-accessibility.umd.js" defer></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        /* NAVBAR */
+        gsap.from("#navbar a", {
+          opacity: 0,
+          y: -20,
+          duration: 0.8,
+          stagger: 0.15,
+          ease: "power2.out",
+        });
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document.querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-hero")
+        .forEach((el) => observer.observe(el));
+    </script>
     <script src="../js/projectLoader.js"></script>
   </body>
 </html>

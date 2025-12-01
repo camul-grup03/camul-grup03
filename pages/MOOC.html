@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Access the full MOOC with lessons, modules, multimedia resources, quizzes, and progress tracking designed to support an engaging learning experience."
+    />
     <title>Optimization & Monitoring — Energy Storage MOOC</title>
 
     <!-- main stylesheet (your provided style adapted) -->
@@ -17,25 +21,38 @@
     </nav>
     <!-- HEADER / HERO -->
     <header id="header">
-      <div class="horizontal-wrapper" style="align-items: flex-start">
+      <nav id="navbar">
+        <a href="HomePage.html" aria-label="Go to the Home Page"><span>PAGE -</span><span>Portfolio</span></a>
+        <a href="HomePage.html#projects" aria-label="View all projects"
+          ><span>SECTION -</span><span>Projects</span></a
+        >
+        <a href="HomePage.html#about-us" aria-label="Learn about the team"
+          ><span>SECTION -</span><span>About Us</span></a
+        >
+        <a href="HomePage.html#contact-us" aria-label="Reach out to us!"
+          ><span>SECTION -</span><span>Contact Us</span></a
+        >
+      </nav>
+      <div style="align-items: flex-start">
         <div id="mooc-header">
           <div>
             <!-- using the provided local image path -->
-            <img alt="course hero" src="../img/pexels-pixabay-356036.webp" />
+            <img
+              class="reveal"
+              alt="course hero"
+              src="../img/pexels-pixabay-356036.webp"
+            />
           </div>
 
-          <div>
-            <h1 class="title-text">
+          <div style="height: 100%">
+            <h1 class="title-text reveal">
               Optimization &amp; Monitoring of<br />Energy Storage
             </h1>
-            <p style="font-size: 1.6vw; max-width: 50vw; margin-top: 1.8rem">
+            <p class="reveal" style="max-width: 50vw; margin-top: 1.8rem">
               Intelligent Monitoring and Solar Energy Storage: Optimization,
               Efficiency &amp; Energy Market
             </p>
-            <p
-              class="authors"
-              style="margin-top: 1.2rem; font-size: 1vw; color: #272727"
-            >
+            <p class="authors reveal">
               Created by Gaspar Vieira, Daniel Braga &amp; Gonçalo Mochão
             </p>
 
@@ -44,27 +61,28 @@
             </div>
           </div>
         </div>
+        <nav id="indice">
+          <a href="#requirements"
+            ><span>Requirements</span><span class="SugoLight">learn</span></a
+          >
+          <a href="#description"
+            ><span>Description</span><span class="SugoLight">read</span></a
+          >
+          <a href="#who"
+            ><span>Who it's for</span><span class="SugoLight">audience</span></a
+          >
+          <a href="#course-content"
+            ><span>Course Content</span
+            ><span class="SugoLight">lessons</span></a
+          >
+        </nav>
       </div>
 
       <!-- navbar simplified -->
-      <nav id="navbar">
-        <a href="#requirements"
-          ><span>Requirements</span><span class="SugoLight">learn</span></a
-        >
-        <a href="#description"
-          ><span>Description</span><span class="SugoLight">read</span></a
-        >
-        <a href="#who"
-          ><span>Who it's for</span><span class="SugoLight">audience</span></a
-        >
-        <a href="#course-content"
-          ><span>Course Content</span><span class="SugoLight">lessons</span></a
-        >
-      </nav>
     </header>
 
     <!-- MAIN CONTENT -->
-    <main id="projects">
+    <main id="mooc-content">
       <section id="requirements">
         <h2>Requirements</h2>
         <p>
@@ -96,11 +114,100 @@
       <section id="course-content">
         <h2>Course Content</h2>
 
-        <!-- Dropdown list will be populated by script.js using the JSON below -->
-        <div id="lessons-list" class="container"></div>
+        <div id="modules-container"></div>
       </section>
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sienna-accessibility@latest/dist/sienna-accessibility.umd.js" defer></script>
     <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        /* NAVBAR */
+        gsap.from("#navbar a", {
+          opacity: 0,
+          y: -20,
+          duration: 0.8,
+          stagger: 0.15,
+          ease: "power2.out",
+        });
+
+        /* INDICE */
+        gsap.from("#indice a", {
+          opacity: 0,
+          y: -30,
+          duration: 0.4,
+          stagger: 0.25,
+          ease: "power4.out",
+        });
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document
+        .querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-hero")
+        .forEach((el) => observer.observe(el));
+
+      async function loadAulas() {
+        const res = await fetch("../DB/aulas.json");
+        const aulas = await res.json();
+
+        const container = document.getElementById("modules-container");
+
+        // Agrupar por módulo
+        const modules = {};
+
+        aulas.forEach((aula) => {
+          if (!modules[aula.module]) {
+            modules[aula.module] = [];
+          }
+          modules[aula.module].push(aula);
+        });
+
+        // Criar interface
+        Object.keys(modules).forEach((moduleName) => {
+          const moduleBox = document.createElement("div");
+          moduleBox.className = "module-box";
+
+          const header = document.createElement("div");
+          header.className = "module-header";
+          header.textContent = moduleName;
+
+          const list = document.createElement("div");
+          list.className = "lesson-list";
+
+          modules[moduleName].forEach((aula) => {
+            const link = document.createElement("a");
+            link.className = "lesson-link";
+            link.href = `Lesson.html?id=${aula.id}`;
+            link.textContent = aula.title;
+
+            list.appendChild(link);
+          });
+
+          header.addEventListener("click", () => {
+            list.classList.toggle("open");
+          });
+
+          moduleBox.appendChild(header);
+          moduleBox.appendChild(list);
+          container.appendChild(moduleBox);
+        });
+      }
+
+      loadAulas();
+    </script>
   </body>
 </html>
