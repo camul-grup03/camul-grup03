@@ -2,6 +2,118 @@ body {
   background-color: #eeeadf;
   margin: 0px;
   padding: 0px;
-  font-family: "SugoClassic";
   color: #272727;
+}
+
+@font-face {
+  font-family: "SugoClassic";
+  src: url("../fonts/SugoTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SugoLight";
+  src: url("../fonts/Sugo_ExtraLightTrial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  height: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 5vh;
+  padding: 1vw;
+  font-family: "SugoClassic";
+  font-size: 1.2rem;
+}
+
+#navbar {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a {
+  display: flex;
+  flex-direction: column;
+
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+#navbar a span:last-child {
+  font-family: "SugoLight";
+}
+
+#mooc-container {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+#lesson-panel {
+  width: 70%;
+  max-width: 900px;
+  min-height: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#lesson-title {
+  margin-top: 0;
+}
+
+#lesson-content p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+#lesson-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+#lesson-content video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+  display: block;
+}
+
+#lesson-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#lesson-buttons button {
+  background: #0075ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#lesson-buttons button:hover {
+  background: #005ed1;
 }

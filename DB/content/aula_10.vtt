@@ -1,0 +1,250 @@
+WEBVTT
+
+00:01.190 --> 00:01.910
+Bem vindos.
+
+00:02.900 --> 00:11.450
+Nesta unidade vamos compreender como funciona o mercado ibérico de eletricidade, o nível e qual é o
+
+00:11.450 --> 00:12.800
+papel do seu operador.
+
+00:12.830 --> 00:23.840
+O hóme O Miguel Entrega integra os mercados de Portugal e Espanha, permitindo que os produtores e consumidores
+
+00:23.840 --> 00:29.780
+de ambos os países compreendam, comprem e vendam eletricidade num sistema comum.
+
+00:33.560 --> 00:41.960
+O operador do mercado ibérico de energia, aqui o polo espanhol, é a entidade responsável pela gestão
+
+00:43.280 --> 00:46.100
+do mercado diário e intermediário da eletricidade.
+
+00:47.180 --> 00:55.790
+Todos os dias, milhares de produtores e comercializadores submetem ofertas de venda e de compra.
+
+00:57.320 --> 01:00.880
+Assim, o hóme recolhe estas propostas e Termina.
+
+01:01.150 --> 01:01.750
+Ora, ora!
+
+01:01.780 --> 01:03.400
+O preço da eletricidade.
+
+01:03.970 --> 01:13.420
+Aqui por este gráfico conseguimos ver então o que é um exemplo de um dia normal típico do mercado.
+
+01:17.980 --> 01:28.930
+O mercado ibérico funciona então em duas fases principais o mercado diário onde se negocia, negoceiam
+
+01:28.960 --> 01:31.600
+as quantidades de energia para o dia seguinte.
+
+01:32.320 --> 01:38.590
+É o mercado intra diário que permite então ajustar.
+
+01:41.590 --> 01:45.460
+Previsões e corrigir desvios ao longo do próprio dia.
+
+01:46.330 --> 01:52.210
+Aqui pronto, um primeiro momento onde se recebem as ofertas.
+
+01:52.660 --> 01:57.250
+Depois, aqui as correspondências do que os compradores.
+
+02:00.010 --> 02:02.660
+Querem então a ligação depois.
+
+02:02.690 --> 02:06.260
+Vai ser aqui o preço marginal que vamos ver agora no próximo slide.
+
+02:07.850 --> 02:13.070
+Então o preço da electricidade é determinado por um mecanismo de leilão marginalista?
+
+02:14.180 --> 02:15.530
+É o que eu estava agora a explicar.
+
+02:15.650 --> 02:25.490
+Os produtores apresentam as suas ofertas de venda com base no custo de produção, enquanto que os consumidores
+
+02:25.520 --> 02:29.960
+apresentam ofertas de compra que estão dispostos a comprar.
+
+02:31.520 --> 02:38.150
+O ponto onde estas duas curvas se cruzam é o preço do mercado.
+
+02:41.060 --> 02:43.190
+Aqui é outro exemplo de.
+
+02:46.520 --> 02:47.270
+Um gráfico.
+
+02:50.840 --> 02:51.980
+Do processo de leilão.
+
+02:52.520 --> 02:57.680
+São valores disponibilizados posteriormente as sessões.
+
+02:57.710 --> 02:59.090
+Estas sessões não há.
+
+02:59.540 --> 03:07.240
+Não se consegue propriamente ver ou participar enquanto consumidor normal ou cliente normal.
+
+03:09.010 --> 03:13.030
+Mas estes dados depois estão disponíveis para nós.
+
+03:13.030 --> 03:16.480
+Podemos ver, comparar e entender os processos.
+
+03:19.030 --> 03:21.430
+E a realidade.
+
+03:22.630 --> 03:24.490
+No entanto, muda constantemente.
+
+03:24.730 --> 03:28.960
+O vento pode abrandar, o sol pode desaparecer atrás das nuvens.
+
+03:29.320 --> 03:31.480
+Enfim, várias questões meteorológicas.
+
+03:33.340 --> 03:41.620
+Por isso, existe um mercado intermediário onde os agentes ajustam as suas posições várias vezes ao
+
+03:41.620 --> 03:42.250
+longo do dia.
+
+03:43.360 --> 03:49.180
+Este mercado é essencial para equilibrar a oferta e a procura em tempo real.
+
+03:50.350 --> 03:57.280
+Essencialmente aqui, nestes gráficos por detrás, semelhante a que é o primeiro que vos mostrei, é
+
+03:57.310 --> 03:59.500
+o valor normal.
+
+04:00.720 --> 04:03.030
+E depois estes.
+
+04:03.060 --> 04:10.470
+Esta linha azul e o preço marginal ajustado.
+
+04:10.500 --> 04:20.100
+Estes mercados intermediários feita em várias sessões durante o dia seis para ser preciso e definem
+
+04:20.100 --> 04:27.090
+o preço quase de hora a hora, quase não de hora a hora também.
+
+04:27.960 --> 04:35.220
+Então agora, através da ferramenta da motherboard, temos aqui esta simulação do mercado OMM.
+
+04:36.360 --> 04:41.280
+Então aqui neste portátil temos o resultado do leilão.
+
+04:41.310 --> 04:49.620
+É feito então aqui as duas curvas, a da oferta e de procura e então o ponto de intersecção vai representar
+
+04:49.620 --> 04:50.070
+aqui mesmo.
+
+04:50.070 --> 04:53.160
+O preço marginal é a energia transacionável.
+
+04:53.670 --> 04:56.310
+Este é o coração do mercado.
+
+04:56.640 --> 05:05.790
+O preço final é então determinado onde a procura encontra a oferta com este preço marginal definido.
+
+05:06.900 --> 05:14.670
+Isto para cada hora do dia é então definido o mercado diário.
+
+05:14.700 --> 05:19.710
+Isto sempre para o dia a seguir que de um mercado diário.
+
+05:20.010 --> 05:30.240
+O eixo do X representa aqui a potência em megawatts e depois oito 12 Y é mesmo o preço a que fica.
+
+05:30.270 --> 05:41.970
+Se virmos bem nas barras preenchidas que vão do topo para cima, esta linha forma então o valor a linha
+
+05:41.970 --> 05:48.150
+do valor do mercado diário em si, muito semelhante ao terceiro slide que eu vos mostrei.
+
+05:50.550 --> 05:52.230
+Na apresentação de agora.
+
+05:54.780 --> 06:00.120
+Estas linhas depois tem a ver com os valores marginais de cada País.
+
+06:00.420 --> 06:00.840
+Portugal.
+
+06:00.870 --> 06:02.460
+Tanto de Espanha.
+
+06:04.410 --> 06:06.120
+Com um mercado diário definido.
+
+06:06.150 --> 06:10.380
+Depois, durante o dia é definido então aqui o mercado intermediário.
+
+06:11.790 --> 06:18.090
+Ele vai ser realizado durante o dia e corrige aqui as diferenças entre a produção e o consumo real.
+
+06:19.350 --> 06:22.050
+Então, as várias sessões, aquelas que estava a falar.
+
+06:22.500 --> 06:27.930
+Permite se assim reagir às alterações meteorológicas e flutuações no consumo.
+
+06:27.960 --> 06:29.730
+Como foi, por exemplo, com o apagão.
+
+06:30.810 --> 06:37.980
+E, portanto, é mesmo essencial para a flexibilidade do sistema electrónico.
+
+06:37.980 --> 06:45.300
+Sem ele não era tão viável e momentos como o apagão seriam muito mais críticos.
+
+06:46.320 --> 06:49.740
+Bem, foi assim a nossa.
+
+06:52.470 --> 06:53.460
+A nossa simulação.
+
+06:53.880 --> 06:54.750
+Espero que tenham gostado.
+
+06:54.780 --> 06:57.390
+Vamos continuar então com o resto da apresentação.
+
+07:03.140 --> 07:05.000
+Então porque é que a mulher é essencial?
+
+07:05.330 --> 07:10.190
+Graças a ele, o mercado ibérico é transparente e competitivo.
+
+07:10.550 --> 07:19.760
+Todos os agentes têm acesso à mesma informação e os preços refletem as condições reais do sistema elétrico.
+
+07:20.120 --> 07:27.470
+Isto favorece a integração das energias renováveis e garante eficiência económica.
+
+07:31.310 --> 07:39.470
+Agora que já conhecemos o papel do homem e o funcionamento do mercado diário e diário, vamos explorar
+
+07:39.740 --> 07:46.250
+como se formam os preços e os fatores que influenciam os influenciam.
+
+07:47.600 --> 07:55.580
+No próximo módulo, então, analisaremos a variação horária dos preços e os efeitos da oferta e procura.
+
+07:55.670 --> 07:57.740
+O custo final da energia.
+
+07:58.610 --> 07:59.300
+Muito obrigado.

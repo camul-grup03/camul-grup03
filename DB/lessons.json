@@ -6,7 +6,8 @@
     "content": [
       {
         "type": "video",
-        "src": "content/aula_1.mp4"
+        "src": "content/aula_1.mp4",
+        "captions": "content/aula_1.vtt"
       }
     ]
   },
@@ -58,7 +59,7 @@
    "content": [
      {
        "type": "text",
-       "body": "A energia solar fotovoltaica pode ser aproveitada de diversas formas, dependendo da forma como o sistema é configurado e ligado (ou não) à rede elétrica pública.\n Cada tipo de sistema apresenta vantagens, limitações e aplicações distintas, adaptando-se a diferentes perfis de consumo, locais de instalação e objetivos energéticos.\n De forma geral, distinguem-se três tipos principais de sistemas fotovoltaicos: on-grid, off-grid e híbridos.\n \n Sistema On-grid (Ligado à Rede)\n O sistema on-grid é o mais utilizado em áreas residenciais e comerciais com acesso à rede elétrica. Neste tipo de instalação, a eletricidade produzida pelos painéis solares é convertida em corrente alternada através de um inversor, sendo utilizada prioritariamente para o consumo local.\n Quando a produção solar excede o consumo, o excedente é exportado para a rede, originando um crédito de energia que reduz o custo da fatura elétrica. Durante a noite ou em períodos de menor produção solar, a eletricidade é automaticamente fornecida pela rede pública.\n Uma das principais vantagens deste sistema é o baixo custo de implementação, já que não necessita de baterias para armazenamento. Além disso, a manutenção é reduzida e a eficiência é elevada, pois praticamente toda a energia é usada em tempo real.\n No entanto, por razões de segurança, o sistema desliga-se automaticamente em caso de falha da rede, o que significa que não fornece energia durante apagões, mesmo que os painéis estejam a produzir."
+       "body": "A energia solar fotovoltaica pode ser aproveitada de diversas formas, dependendo da forma como o sistema é configurado e ligado (ou não) à rede elétrica pública.\n Cada tipo de sistema apresenta vantagens, limitações e aplicações distintas, adaptando-se a diferentes perfis de consumo, locais de instalação e objetivos energéticos.\n De forma geral, distinguem-se três tipos principais de sistemas fotovoltaicos: on-grid, off-grid e híbridos.\n \n Sistema On-grid (Ligado à Rede)\n \n O sistema on-grid é o mais utilizado em áreas residenciais e comerciais com acesso à rede elétrica. Neste tipo de instalação, a eletricidade produzida pelos painéis solares é convertida em corrente alternada através de um inversor, sendo utilizada prioritariamente para o consumo local.\n Quando a produção solar excede o consumo, o excedente é exportado para a rede, originando um crédito de energia que reduz o custo da fatura elétrica. Durante a noite ou em períodos de menor produção solar, a eletricidade é automaticamente fornecida pela rede pública.\n Uma das principais vantagens deste sistema é o baixo custo de implementação, já que não necessita de baterias para armazenamento. Além disso, a manutenção é reduzida e a eficiência é elevada, pois praticamente toda a energia é usada em tempo real.\n No entanto, por razões de segurança, o sistema desliga-se automaticamente em caso de falha da rede, o que significa que não fornece energia durante apagões, mesmo que os painéis estejam a produzir."
      },
 	{
        "type": "image",
@@ -237,7 +238,8 @@
     "content": [
       {
         "type": "video",
-        "src": "content/aula_5.mp4"
+        "src": "content/aula_5.mp4",
+        "captions": "content/aula_5.vtt"
      }
     ]
   },
@@ -344,7 +346,8 @@
     "content": [
       {
         "type": "video",
-        "src": "content/aula_10.mp4"
+        "src": "content/aula_10.mp4",
+        "captions": "content/aula_10.vtt"
       }
     ]
   },
@@ -417,7 +420,8 @@
     "content": [
       {
         "type": "video",
-        "src": "content/aula_13.mp4"
+        "src": "content/aula_13.mp4",
+        "captions": "content/aula_13.vtt"
       }
     ]
   },
